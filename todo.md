@@ -28,6 +28,8 @@
     - Route53 Inbound and Outbound Endpoint
     - Test out S2S VPN
 - [ ] Setup a captcha thing with WAF
+- [ ] Work with WAF
     
 # Queries
 The min and + of dijisktra's algorithm, is replaced with max and min? To make the algorithm very abstract for algebra? Now my brain left
+What is headers has to do with cache and how is it related to cache ke

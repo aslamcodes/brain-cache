@@ -12,7 +12,6 @@ if the CIDR of an VPC is `16.0.0.0/16`, then vpc+2 would be `16.0.0.2`
 
 The Nodes reach to internet using the IP(eip) address of the NAT
 
-
 Requirements
 - Must be in a public subnet
 - Must have a EIP attached

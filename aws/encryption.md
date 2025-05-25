@@ -1,5 +1,4 @@
 # Encryption at Rest and In Transit
-
 In Transit - SSL/TLS encrypts the transit
 At Rest - Algorithms and Keys encrypts data as it is written
 
@@ -8,7 +7,7 @@ Async Encryption
 - If Private key **encrypts**, the public key **decrypts**
 eg. SSL/TLS, SSH
 
-Sym Encryption
+Symm Encryption
 - Same key for encryption and decrytion
 
 # AWS KMS (Key Management Service)

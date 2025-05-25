@@ -9,7 +9,6 @@ Secures the data between two points using **encryption** and **authentication**
     - Phase 1: Two points identify each other and negociate parameters for auth and encryption methods
     - Phase 2: Creation of the tunnel where the encryption happens, done using AH header or ESP  
 - Both Sender and Recevier must share a public and private key, for locking and unlocking the message
-- 
 
 # Resources
 - https://www.youtube.com/watch?v=xTH1ZA_qUvA

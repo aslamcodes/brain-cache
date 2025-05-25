@@ -19,5 +19,5 @@ Transit gateway: A transit hub that can be used to interconnect multiple VPCs an
 
 > VPN endpoint or Target gateway, in AWS is either VPW or TGW
 
-
 # Direct Connect
+Todo
