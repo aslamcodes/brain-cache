@@ -24,10 +24,18 @@ Improve security
 By optimising AWS environment? By providing guidance/advises
 
 # AWS Security Hub
-- Aggregates logs from the account and produces a score off of that
+- Aggregates logs from the account, accross accounts and across aws services and produces a score off of that for a security standards
+- The Aggregated logs are converted to ASFF (AWS Security Hub Finding Format) for processing
+
+## Security Standards
+> ASFF probably injected into on of these standards, that gives us a score on our posture
+- FSBP
+- CIS:
+- PCI DSS:
+- NIST: 
 
 # AWS Guardduty
-- Detects threats
+- Guardduty is more of an "remediation/Active service" compared to AWS inspector which could be said "Passive service" - Layman terms
 
 # AWS Sheild 
 WAF and Sheild are closely packed
@@ -35,6 +43,7 @@ WAF and Sheild are closely packed
 This is to protect from DDoS attacks, for underlying AWS resources 
 
 Why this is not part of WAF?
+> AWS Shield is primarily for DDoS attacks, as DDoS attacks can be of different levels.
 https://docs.aws.amazon.com/decision-guides/latest/waf-or-shield/waf-or-shield.html
 
 AWS WAF
