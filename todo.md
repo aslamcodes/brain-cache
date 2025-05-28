@@ -1,3 +1,5 @@
+# Learn 
+- [ ] Semver (https://semver.org/)
 # Networking
 - [x] BGP 
 - [ ] BGP Peering
@@ -29,6 +31,7 @@
     - Test out S2S VPN
 - [ ] Setup a captcha thing with WAF
 - [ ] Work with WAF
+- [ ] Cross AZ database hosted on EBs backed Ec2 
     
 # Queries
 The min and + of dijisktra's algorithm, is replaced with max and min? To make the algorithm very abstract for algebra? Now my brain left
