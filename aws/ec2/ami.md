@@ -18,7 +18,7 @@ Compliance & sovereignty: Regional control helps meet legal/data residency requi
 - Create AMI without rebooting
 - 💡AWS Backup plans uses no-reboot internally
 
-[[ami-no-reboot]]
+![[ami-no-reboot.jpeg]]
 
 ## Migrating EC2 instance between AZs
 - Take AMI from Source
