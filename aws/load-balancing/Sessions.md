@@ -18,5 +18,5 @@ Expiration dates can be controlled
     Names: ALB - AWSALB, ELB - AWSCLB
     Expired based on some duration
 
-Stickiness can be turned on Target Grouop's Edit attribute settings
+Stickiness can be turned on Target Group's Edit attribute settings
 

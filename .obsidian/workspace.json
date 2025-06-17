@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "960fc5ccea90c45d",
+        "id": "78453ed8c78a64cf",
         "type": "tabs",
         "children": [
           {
-            "id": "711aaec6957f20ea",
+            "id": "28cc38df9fbb88e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aws/scalability/ALB.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ALB"
+              "title": "New tab"
             }
           }
         ]
@@ -165,45 +161,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "711aaec6957f20ea",
+  "active": "28cc38df9fbb88e6",
   "lastOpenFiles": [
-    "aws/scalability/cross-zone.md",
-    "aws/scalability/Sessions.md",
-    "aws/scalability/GWLB.md",
-    "aws/scalability/NLB.md~",
-    "aws/scalability/load balancer.md",
-    "aws/scalability/NLB.md",
-    "aws/scalability/ALB.md",
-    "aws/scalability/terms.md",
-    "elasticache-scaling.md",
-    "aws/database/aurora.md",
+    "aws/s3/basic-s3.md",
+    "aws/s3/storage-classes.md",
+    "aws/s3/replication.md",
+    "aws/s3/security.md",
+    "aws/s3/S3 basic.md",
+    "aws/Untitled.md",
+    "aws/s3",
+    "aws/s3.md",
+    "aws/bean stalk.md",
+    "aws/ssm/patch manager.md",
+    "aws/ssm/inventory.md",
+    "aws/ssm/resource group.md",
+    "aws/ssm/run command.md",
+    "aws/ssm/session manager.md",
+    "aws/ssm/ssm automation.md",
     "aws/ssm/ssm documents.md",
-    "aws/ssm/resource-group.md",
+    "aws/ssm/state manager.md",
+    "aws/ssm/ssm parameter store.md",
     "aws/ssm/ssm basics.md",
-    "aws/ec2/spot-instances-and-spot-fleets.md",
+    "aws/ssm/Resource groups.md",
+    "aws/load-balancing/ASG.md",
+    "attachments/asg-lifecycle.jpeg",
+    "attachments/Pasted image 20250615084638.png",
+    "aws/load-balancing/target.md",
+    "aws/ec2/purchasing.md",
+    "aws/load-balancing/terms.md",
+    "networking/ssl.md",
+    "aws/load-balancing/monitoring.md",
+    "aws/load-balancing/health-check.md",
+    "aws/load-balancing/ssl.md~",
+    "aws/load-balancing",
+    "attachments/ssl.png",
+    "aws/scalability/NLB.md~",
     "aws/ssm",
     "attachments/spot-cycle.png",
-    "aws/ec2/troubleshooting.md",
-    "aws/ec2/status-checks.md",
-    "aws/ec2/ssh-issues.md",
-    "aws/ec2/purchasing.md",
-    "aws/ec2/networking.md",
-    "aws/ec2/misc.md",
-    "aws/ec2/metrics.md",
-    "aws/ec2/ip.md",
-    "aws/ec2/hibernation.md",
-    "aws/ec2/enhanced-networking.md",
-    "aws/ec2/burstable.md",
-    "aws/ec2/ami.md",
-    "aws/ec2/elastic-ip.md",
     "attachments/ip-cost.png",
     "attachments/RI.png",
     "attachments/ami-no-reboot.jpeg",
     "attachments/cache-storage-gatway.jpeg",
     "attachments/Udemy ScreenShot 2025-06-02 06-26-41.jpeg",
-    "attachments/storage-gateway.jpeg",
-    "attachments/Udemy ScreenShot 2025-06-02 06-18-37.jpeg",
-    "attachments/single-to-multi-az.jpeg",
-    "attachments/elasticache-scaling.jpeg"
+    "attachments/storage-gateway.jpeg"
   ]
 }
