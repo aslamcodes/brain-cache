@@ -24,11 +24,19 @@ has 3 classes
 
 ## glacier instant retrival
 Data accessed once a quater
-Minimum storage is 90 days
+Minimum storage duration charge - is 90 days
 
 ## glacier flexible retrival
+Minimum storage duration charge - is 90 days
+Expedited - 1 to 5 minutes
+Standard - 3 to 5 hours
+Bulk - 5 to 12 hours
 
 ## glacier deep archive
+Minimum storage duration charge - is 180 days
+Standard - 12 hours
+bulk - 48 hours
+cheapest of all
 
 # S3 Intelligent Tiering
 Moves based on usage
