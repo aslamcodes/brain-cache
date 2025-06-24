@@ -30,3 +30,9 @@ Symm Encryption
 # Key Rotation
 - It is required to rotate AMS Managed keys
 - It is optional to rotate Customer Managed Keys
+
+
+> [TLDR] Encryption is the process of scrambling plain data using a key. The key is a random-looking input used by an encryption algorithm. To get the original data back, a decryption algorithm is used along with the same key.
+> Asymmetric encryption uses two keys: a public key and a private key. Data encrypted with the public key can only be decrypted with the private key, and vice versa. Bob sends alice his public key and alice sends her data encrypted, which can only be decyrped with bob's private key
+
+

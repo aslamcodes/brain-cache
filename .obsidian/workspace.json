@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78453ed8c78a64cf",
+        "id": "f79df8aa87c1f69f",
         "type": "tabs",
         "children": [
           {
-            "id": "28cc38df9fbb88e6",
+            "id": "8c1d32f0bb33d2a7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,8 +161,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28cc38df9fbb88e6",
+  "active": "8c1d32f0bb33d2a7",
   "lastOpenFiles": [
+    "aws/s3-security/access-points.md",
+    "attachments/Udemy ScreenShot 2025-06-19 12-09-32.jpeg",
+    "attachments/accesspoint.jpeg",
+    "aws/s3-security/s3-vpce.md",
+    "aws/s3-security/vpce.md",
+    "aws/s3-security/s3-cors.md",
+    "aws/s3-security/object-encryption.md",
+    "aws/s3-security",
+    "aws/s3-security.md",
+    "aws/s3/s3-security",
     "aws/s3/athena.md",
     "aws/s3/multi-part-upload.md",
     "aws/s3/s3-glacier.md",
@@ -185,13 +195,6 @@
     "aws/ssm/inventory.md",
     "aws/ssm/resource group.md",
     "aws/ssm/run command.md",
-    "aws/ssm/session manager.md",
-    "aws/ssm/ssm automation.md",
-    "aws/ssm/ssm documents.md",
-    "aws/ssm/state manager.md",
-    "aws/ssm/ssm parameter store.md",
-    "aws/ssm/ssm basics.md",
-    "aws/ssm/Resource groups.md",
     "attachments/asg-lifecycle.jpeg",
     "attachments/Pasted image 20250615084638.png",
     "aws/load-balancing/ssl.md~",
@@ -203,8 +206,6 @@
     "attachments/ip-cost.png",
     "attachments/RI.png",
     "attachments/ami-no-reboot.jpeg",
-    "attachments/cache-storage-gatway.jpeg",
-    "attachments/Udemy ScreenShot 2025-06-02 06-26-41.jpeg",
-    "attachments/storage-gateway.jpeg"
+    "attachments/cache-storage-gatway.jpeg"
   ]
 }
