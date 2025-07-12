@@ -1,0 +1,1 @@
+Only analyses the configurations programaatically, not via packets

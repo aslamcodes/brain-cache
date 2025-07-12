@@ -27,7 +27,6 @@ $2,62,974.60 after discount you pay ~$75000
 # Spot Instance
 90% discount, but the instances will be lose
 Workload resilient to failure
-
 # Dedicated Host
 Dedicated host for your EC2 instances
 Compliance requirements, VM software licences like per core, per server
@@ -35,7 +34,6 @@ Purchasing
 On-Demand: Pay per second
 Reserved: 1 or 3 years (upfront options)
 License with complicated licensing model
-
 # Dedicated Instances (DI)
 - Instances run on hardware dedicated to you, but we don't have control over the hardware unlike DH
 

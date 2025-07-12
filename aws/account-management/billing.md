@@ -1,0 +1,1 @@
+Billing metrics will be only stored on us-east-1 that represents every region

@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "attachments",
   "alwaysUpdateLinks": true,
-  "vimMode": true
+  "vimMode": true,
+  "newFileLocation": "current"
 }

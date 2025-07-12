@@ -1,0 +1,1 @@
+CNAME records can not be setup of root domains

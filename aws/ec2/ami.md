@@ -10,7 +10,7 @@ Compliance & sovereignty: Regional control helps meet legal/data residency requi
 ## Building AMI from EC2
 - Launch instance
 - Configure
-- Stop 
+- Stop (recommended, but skipable.)
 - Take AMI (Snapshots internally)
     - Actions -> Images and Templates -> Create an Image
 

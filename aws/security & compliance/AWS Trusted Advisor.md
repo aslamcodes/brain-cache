@@ -1,0 +1,13 @@
+High level AWS account Assessment for best practice and excellence
+
+- Do you have public EBS, RDS snapshots? Are you using root account?
+
+Grouped in categories
+- Cost Optimsation
+- Performance
+- Security
+- Fault Tolerance
+- Service limits
+- Operation excellence
+
+There are Buisness and Enterprise plans too

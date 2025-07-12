@@ -1,0 +1,1 @@
+Unstructured log data can be parsed, structured, and manipulated with processor

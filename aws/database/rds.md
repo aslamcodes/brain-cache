@@ -70,7 +70,7 @@ Multi AZ reduces downtimes caused by version upgrades, backup snapshots.
 # How to go from Single AZ to Multi AZ
 - Zero Downtime operation
 - Can be done on console
-[[single-to-multi-az]]
+![[single-to-multi-az.jpeg]]
 
 # RDS Backups vs Snapshot
 - Backups are continous and point in time recovery

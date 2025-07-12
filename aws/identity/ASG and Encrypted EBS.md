@@ -1,0 +1,1 @@
+ASG was trying to launch an EC2 instance 
