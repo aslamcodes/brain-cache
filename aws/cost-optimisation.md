@@ -23,16 +23,20 @@
 - Price List API - HTML/Bulk
 
 # EC2 Pricing
-
-## Pricing Plans
-On demand: Standard rate, great for short term, test workloads
-Reserved: 1 or 3 year commitment for discounts, till 75%
-Spot: Can be terminated at any time, but 90% discounts
-
-Dedicated Instances: No sharing with others
-Dedicated Hosts: Get your own server
-
-Savings Plan: Dollars per hour, with 1 or 3 year commitment
+- **On demand**: 
+	- Standard rate, great for short term, test workloads
+- **Reserved**:
+	- 1 or 3 year commitment for discounts, till 75%
+- **Spot**:
+	- Can be terminated at any time, but 90% discounts
+- **Dedicated Instance**:  
+    ✅ Runs on dedicated physical server  
+    ❌ No visibility or control over host (e.g., socket, core, instance placement)
+- **Dedicated Host**:  
+    ✅ Dedicated physical server  
+    ✅ Full visibility & control over host (e.g., specify instance placement, BYOL for licenses)
+- **Savings Plan**:
+	-  Dollars per hour, with 1 or 3 year commitment
 
 ## EC2 Placement Groups
 You cannot control which AZ your Ec2 instances would get launched, usually. But with placement groups you can control, predefined strategies that AWS provided.

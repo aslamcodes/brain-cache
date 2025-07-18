@@ -3,8 +3,10 @@
 - Create a encrypted snapshot
 - Create encrypted volume out of the snapshot with the new key
 - AWS manages re-encryption
+
 ![[Udemy ScreenShot 2025-07-07 09-33-33.webp]]
 
+- Reencryption -> Decrypt all the data and Encrypt all the data. this happens everytime we chose to copy with different KMS keys
 # Sharing KMS Encrypted RDS DB Snapshots
 - The key must shared with respective accounts with key policies
 ![[Udemy ScreenShot 2025-07-07 09-35-09.webp]]

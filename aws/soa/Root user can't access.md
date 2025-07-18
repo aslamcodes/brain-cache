@@ -1,0 +1,1 @@
+If an IAM principal with full access not allow an action, the root won't be allowed.

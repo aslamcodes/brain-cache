@@ -4,7 +4,6 @@
 - Bridge bw on prem data and cloud data
 
 Gateway has to be run on the on prem. By virtualisation or by hardware
-# Types
 
 **S3 file gateway**
 The most recently used objects will be cached in file gateway.  IAM roles need to be created for the filegateway to access S3. 
@@ -15,6 +14,7 @@ The most recently used objects will be cached in file gateway.  IAM roles need t
 - Backed by EBS snapshots
 - Cached volumes
 - Stored volumes
+
 Backup your on prem volumes to s3
 
 **FSX file gateway**
@@ -27,4 +27,4 @@ TLDR
 ## Ops
 - Activations - Public via port 80 or generate via console if ip is not available
 - Monitor CacheHitPercent and CachePercentUse
-- ![[cache-storage-gatway.jpeg]]
+ ![[cache-storage-gatway.jpeg]]

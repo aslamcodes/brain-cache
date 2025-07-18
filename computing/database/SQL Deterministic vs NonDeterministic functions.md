@@ -1,0 +1,1 @@
+Functions can be either deterministic or nondeterministic. A deterministic function always returns the same results if given the same input values.

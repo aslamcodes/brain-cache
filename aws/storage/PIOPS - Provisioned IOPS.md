@@ -1,0 +1,1 @@
+For EBS volumes you can specify a consistent IOPS rate when you create the volume.
