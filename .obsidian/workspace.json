@@ -11,13 +11,32 @@
             "id": "8c1d32f0bb33d2a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "aws/cfn-macm1-backup/pseudo parameters.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "pseudo parameters"
+            }
+          },
+          {
+            "id": "382f6d85bad81fc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aws/cfn-macm1-backup/custom resources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "custom resources"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,8 +180,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1d32f0bb33d2a7",
+  "active": "382f6d85bad81fc2",
   "lastOpenFiles": [
+    "attachments/Screenshot 2025-07-02 at 10.17.36 PM.png",
+    "attachments/Screenshot 2025-07-02 at 10.15.49 PM.png",
+    "aws/cfn-macm1-backup/capabilities.md",
+    "aws/cfn-macm1-backup/custom resources.md",
+    "aws/cfn-macm1-backup/dynamic references.md",
+    "aws/cfn-macm1-backup/deletion policy, stack policy, termination policy.md",
+    "aws/cfn-macm1-backup/Stack policy.md",
+    "aws/cfn-macm1-backup/cfn.md",
+    "aws/cfn-macm1-backup/cloudformation-custom-resources.md",
+    "aws/cfn-macm1-backup/Intrisic Functions.md",
+    "aws/cfn-macm1-backup/ref.md",
+    "aws/cfn-macm1-backup/rollback.md",
+    "aws/cfn-macm1-backup/outputs.md",
+    "aws/cfn-macm1-backup/mappings.md",
+    "aws/cfn-macm1-backup/terraform-cfn.md",
+    "aws/cfn-macm1-backup/stacks.md",
+    "aws/cfn-macm1-backup/pseudo parameters.md",
     "aws/s3-security/access-points.md",
     "attachments/Udemy ScreenShot 2025-06-19 12-09-32.jpeg",
     "attachments/accesspoint.jpeg",
@@ -178,23 +214,8 @@
     "aws/s3/s3-glacier.md",
     "aws/s3/batch-operation.md~",
     "aws/s3/batch-operation.md",
-    "aws/s3/s3-performance.md",
-    "aws/s3/s3-event.md",
-    "aws/s3/lifecycle.md",
     "aws/s3/storage-classes.md~",
-    "aws/s3/basic-s3.md",
-    "aws/s3/storage-classes.md",
-    "aws/s3/replication.md",
-    "aws/s3/security.md",
-    "aws/s3/S3 basic.md",
-    "aws/Untitled.md",
     "aws/s3",
-    "aws/s3.md",
-    "aws/bean stalk.md",
-    "aws/ssm/patch manager.md",
-    "aws/ssm/inventory.md",
-    "aws/ssm/resource group.md",
-    "aws/ssm/run command.md",
     "attachments/asg-lifecycle.jpeg",
     "attachments/Pasted image 20250615084638.png",
     "aws/load-balancing/ssl.md~",
@@ -205,7 +226,6 @@
     "attachments/spot-cycle.png",
     "attachments/ip-cost.png",
     "attachments/RI.png",
-    "attachments/ami-no-reboot.jpeg",
-    "attachments/cache-storage-gatway.jpeg"
+    "attachments/ami-no-reboot.jpeg"
   ]
 }

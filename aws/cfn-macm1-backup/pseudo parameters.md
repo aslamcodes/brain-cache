@@ -1,0 +1,1 @@
+Predefined parameters, like aws account id, region and stuff
