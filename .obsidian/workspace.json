@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "359744873c59dccc",
+    "id": "c99aa73a04009a70",
     "type": "split",
     "children": [
       {
-        "id": "4c8874f3f3944ac9",
+        "id": "ff1d82593bf2ea2c",
         "type": "tabs",
         "children": [
           {
-            "id": "a0f029ef69cea187",
+            "id": "27f070bd482502e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/cloud-formation/capabilities.md",
+                "file": "aws/iam/policy evaluation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "capabilities"
+              "title": "policy evaluation"
             }
           }
         ]
@@ -27,35 +27,35 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "74a5eb99b7a069fe",
+    "id": "b41bd53225fd759b",
     "type": "split",
     "children": [
       {
-        "id": "ad2f85839ded4a8f",
+        "id": "0a88388b58593a84",
         "type": "tabs",
         "children": [
           {
-            "id": "f6693fc8f541af4f",
+            "id": "9a96ee0ae22625c1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "1435346606d1eab7",
+            "id": "b9c33d8c9be72f71",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "dedicat",
+                "query": "IAM",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "2d44e5900cc3a6d2",
+            "id": "44b6ea768c48cad3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 428.5
   },
   "right": {
-    "id": "df1ab38dc506cbbb",
+    "id": "8203288835fd6769",
     "type": "split",
     "children": [
       {
-        "id": "fa789f9dd9fc7141",
+        "id": "621fcfa5298e8011",
         "type": "tabs",
         "children": [
           {
-            "id": "93ec06556a266249",
+            "id": "b6d77a42c9cebfe3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "12 Areas/Terraform/Terraform Data sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,39 +104,38 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Terraform Data sources"
             }
           },
           {
-            "id": "fb10ea6ca9d9592b",
+            "id": "d5448d874c171f7f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "12 Areas/Terraform/Terraform Data sources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Terraform Data sources"
             }
           },
           {
-            "id": "1d61716acb313e1d",
+            "id": "5cd633ead7ed87dd",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "060bd7e70b059f98",
+            "id": "e15460982162045a",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -148,11 +148,12 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 455.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -162,57 +163,57 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f6693fc8f541af4f",
+  "active": "27f070bd482502e0",
   "lastOpenFiles": [
-    "aws/cloud-formation/cfn.md",
-    "aws/cloud-formation/cfn-signal.md",
-    "computing/storage/RAID configuration in AWS.md",
-    "computing/storage",
-    "computing/non-transactional storage engines.md",
-    "computing/database/SQL Deterministic vs NonDeterministic functions.md",
-    "computing/database",
-    "computing/SED - Self Encrypting Drives.md",
-    "computing/Database storage engines.md",
-    "aws/storage/ebs volume types.md",
-    "aws/storage/ebs - sharing and copying snapshot.md",
-    "aws/storage/ebs - KMS key rotation.md",
-    "aws/storage/PIOPS - Provisioned IOPS.md",
-    "aws/storage/IBC - Instance Bandwidth weighting configuration.md",
-    "aws/storage/EBS Snapshot lifecycle.md",
-    "aws/storage/EBS - volume queue length.md",
-    "aws/storage/Benchmarking FIO.md",
-    "aws/soa/documentation.md",
-    "aws/soa/cloudfront and s3 origin.md",
-    "aws/soa/cloudformation.md",
-    "aws/soa/cloudformation important functions.md",
-    "aws/soa/asg and ec2.md",
-    "aws/soa/alb, s3 and xray.md",
-    "aws/soa/Service Linked Roles and Custom roles.md",
-    "aws/soa/Root user can't access.md",
-    "aws/soa/RDS Read Replicas fails.md",
-    "aws/soa/Invalidate files to remove content from Cloudfront.md",
-    "aws/soa/Identity vs resource policies.md",
-    "attachments/RAID configuration in AWS-1752744725201.png",
-    "attachments/RAID configuration in AWS-1752744613617.png",
-    "attachments/KMS region-1752341760799.png",
-    "attachments/Invalidate files to remove content from Cloudfront-1752343732789.png",
-    "attachments/EBS Snapshot lifecycle-1752752940954.png",
-    "attachments/Automatice creation of IAM roles over different accounts in an AWS organisation-1752401984436.png",
-    "attachments/Automatice creation of IAM roles over different accounts in an AWS organisation-1752401975552.png",
-    "aws/cfn-macm1-backup",
-    "attachments/Screenshot 2025-07-02 at 10.17.36 PM.png",
-    "attachments/Screenshot 2025-07-02 at 10.15.49 PM.png",
-    "attachments/asg-lifecycle.jpeg",
-    "appstream_e2e_mvp",
-    "aws/soa/attachments",
-    "aws/soa",
-    "soa",
-    "aws/security & compliance",
-    "aws/identity",
-    "Untitled.canvas",
-    "aws/cloudfront"
+    "aws/iam/iam-passrole.md",
+    "12 Areas/Networking/Internet/HTTP.md",
+    "14 Archive/DevOps Paramount Interview Prepartion/EC2 Interview Questions.md",
+    "Excalidraw/Drawing 2025-04-07 04.24.04.excalidraw.md",
+    "14 Archive/DevOps Paramount Interview Prepartion/AWS Questions.md",
+    "12 Areas/System Design/Components/CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan.md",
+    "12 Areas/CICD/Github Actions.md",
+    "12 Areas/CICD/Presidio/Day 4.md",
+    "12 Areas/CICD/Presidio/Day 1.md",
+    "12 Areas/CICD/Jenkins/Jenkins Triggers.md",
+    "12 Areas/CICD/Jenkins/Jenkins Scripts.md",
+    "12 Areas/CICD/Jenkins/Jenkins Pipeline.md",
+    "12 Areas/CICD/Jenkins/Jenkins Jobs.md",
+    "12 Areas/CICD/Jenkins/Jenkins Builds.md",
+    "12 Areas/CICD/Jenkins/Jenkins Artifacts.md",
+    "12 Areas/CICD/Jenkins/Jenkins Agent.md",
+    "12 Areas/Azure/Old Term - Azure Defender.md",
+    "12 Areas/AWS/Certifications.md",
+    "12 Areas/AWS/Cloud Practiioiner/Introduction.md",
+    "12 Areas/AWS/Cloud Practiioiner/Getting Started.md",
+    "14 Archive/Book Notes/How to Read a Book.md",
+    "14 Archive/Book Notes/ProGit/Chapter 1 - 4.md",
+    "13 Resources/Error Diaries/Can't Compose.md",
+    "13 Resources/Error Diaries/Access Denied! MySql.md",
+    "12 Areas/System Design/Getting Started.md",
+    "12 Areas/System Design/Common Distributed System's Pattern.md",
+    "root/presidio/greenway/meeting",
+    "root/presidio/greenway",
+    "root/aws/privatelink",
+    "root/aws/datasync",
+    "root/presidio",
+    "root/aws",
+    "root",
+    "Lobby",
+    "Excalidraw",
+    "0 Life/life.excalidraw",
+    "01 Ideas/attachments/Screenshot 2025-04-05 at 2.46.56 AM.png",
+    "01 Ideas/attachments/Screenshot 2025-04-05 at 2.42.01 AM.png",
+    "13 Resources/Pasted image 20240821213506.png",
+    "13 Resources/Pasted image 20240821213550.png",
+    "attachments/Screenshot 2024-11-28 at 2.34.02 PM.webp",
+    "11 Projects/SysOps/attachments/Screenshot 2025-03-04 at 4.44.11 PM.webp",
+    "11 Projects/SysOps/attachments/Screenshot 2025-02-17 at 10.03.35 AM.webp",
+    "11 Projects/SysOps/attachments/Pasted image 20250216175233.webp",
+    "11 Projects/Certification Prep/Databases/attachments/Screenshot 2025-02-06 at 10.08.07 AM.webp",
+    "11 Projects/Certification Prep/Databases/attachments/Screenshot 2025-02-06 at 10.03.15 AM.webp"
   ]
 }

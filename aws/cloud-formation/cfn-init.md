@@ -3,5 +3,8 @@
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/cfn-init.html
 
-To use **cfn-init** with the CloudFormation **Metadata** block, you must set up a **UserData** script in your EC2 instance resource
+both cfn-init & cfn-signal script needs to be invoked explicitly from user data script
 
+```
+/opt/aws/bin/cfn-init -v --stack STACK_NAME --resource EC2_INSTANCE_LOGICAL_ID --region REGION
+```

@@ -1,3 +1,7 @@
 {
-  "cssTheme": "Minimal"
+  "cssTheme": "Things",
+  "theme": "obsidian",
+  "accentColor": "#99a5e1",
+  "nativeMenus": true,
+  "showRibbon": true
 }

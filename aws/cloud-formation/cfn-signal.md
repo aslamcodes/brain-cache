@@ -1,6 +1,6 @@
 > Way to know if the cfn init worked as expected
 
-- The cfn-signal command executes right after cfn-init conventionally
+- The cfn-signal command executes right after cfn-init **conventionally**
 - **Wait Condition** is required which makes the template wait until it receives the signal from cfn-signal. For this, we would need to attach a creation policy
 ```yaml
 CreationPolicy:
@@ -12,6 +12,6 @@ CreationPolicy:
 
 # if failed
 - Analyse the log file /var/log/cfn-inti or cloud-init.log
-- Must have internet connectivity NAT or IGW
+- Must have internet connectivity NAT/IGW or VPCe
 - Cloud formation helper scripts might not get installed
 - If rollback on failure is enabled, the instance might get deleted, which would be harder for debugging purposes
