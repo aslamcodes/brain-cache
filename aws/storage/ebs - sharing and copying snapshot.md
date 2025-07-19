@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 https://www.youtube.com/watch?v=wtwUqKvSZDA
 
 Sharing = Modifying permission to add a aws account, much like AMIs

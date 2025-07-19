@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 EBS does not re-encrypt all the data once the key material got rotated. But ... IDK
 
 > https://www.reddit.com/r/cybersecurity/comments/1cddvtd/encryption_keys_rotation/

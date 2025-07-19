@@ -1,7 +1,6 @@
 ---
 tags: #routing #dynamic-routing
 ---
-
 # Border Gateway Protocol or BGP
 
 v1. Set of rules that help routers of the internet to route data 

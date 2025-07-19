@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 - EBS volumes are AZ scoped, since they are often scoped to hardware
 - To migrate a volume to another AZ
     1. Take a snapshot of that EBS

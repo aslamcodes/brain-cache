@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 - Point in time Backup for EBS Volumes
 - Recommened to shut off instance, before snapshotting
 - Can be copied to AZ, and can be restored

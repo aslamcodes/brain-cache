@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 # IAM Policy Evaluation
 Stage 0: Explicit Deny, in any policies
 1. If there's a explicit deny anywhere, its denied (Deny Overide any Allow)
