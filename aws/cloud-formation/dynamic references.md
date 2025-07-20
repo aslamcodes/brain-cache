@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Get data from Secretsmanager, parameter store, parameter secure string
 
  `{{resolve:service-name:referencekey:version}}`

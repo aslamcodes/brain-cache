@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - KMS keys are region specific, probably due to the fact that the services that rely on KMS are mostly region specific
 - Means they are like EC2 instances
 - Even if you have same KMS **alias** in different region, inherently its a different key

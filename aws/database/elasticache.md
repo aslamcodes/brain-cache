@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Managed redis/memcached benefits like RDS
 Help reduces load off of DBs
 Makes application stateless, putting state in elasticache

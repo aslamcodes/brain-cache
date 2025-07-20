@@ -1,8 +1,15 @@
 ---
 dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
 ---
 
-# IAM Policy Evaluation
+---
+dg-publish: true
+---
+# Policy Evaluation
 Stage 0: Explicit Deny, in any policies
 1. If there's a explicit deny anywhere, its denied (Deny Overide any Allow)
 
@@ -23,13 +30,6 @@ BUT, if the resource based policy allows the action, then stages aren't progress
 > If the Identity policy allows, then session policy and permission boundaries are checked before allowing the actions
 
 Session policies are just what you give to ever narrow your permission when you assume a role
-
-# STS
-What does assuming a Role Means? Technically
-
-https://www.youtube.com/watch?v=-JAg5A26gF
-
-> STS - Secure Token Service, is AWS's way to provide you with a temporary tokens for a particular role, with that the principal can enjoy the permissions for that role
 
 # Permission Boundary
 https://medium.com/cloudandthings/aws-session-policies-923a8eaff0ea

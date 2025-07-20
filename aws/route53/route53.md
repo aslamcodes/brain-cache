@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 
 Public vs Private Hosted Zones
 - Hosted zones are route 53 term that acts as a container for DNS records

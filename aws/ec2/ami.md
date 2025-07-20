@@ -1,12 +1,19 @@
+---
+dg-publish: true
+tags:
+  - review
+type: 
+date: 19th July 2025
+done: false
+---
+
 # AMI - Amazon Machine Image
 AMIs is built specific to region. So different AMI ids.
-
 ## **AMIs are regional because**
-Data locality: AMIs are stored in **Amazon S3** (since AMIs are snapshots) within a specific region for performance and compliance.
-Network efficiency: Launching instances from local AMIs reduces cross-region latency and costs.
-Service isolation: AWS services operate independently per region for high availability and fault isolation.
-Compliance & sovereignty: Regional control helps meet legal/data residency requirements.
-
+- Data locality: AMIs are stored in **Amazon S3** (since AMIs are snapshots) within a specific region for performance and compliance.
+- Network efficiency: Launching instances from local AMIs reduces cross-region latency and costs.
+- Service isolation: AWS services operate independently per region for high availability and fault isolation.
+- Compliance & sovereignty: Regional control helps meet legal/data residency requirements.
 ## Building AMI from EC2
 - Launch instance
 - Configure

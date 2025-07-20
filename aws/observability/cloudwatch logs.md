@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 log groups - container for log stream
 log stream - log files / specific containers
 log expiration - infiity or choose to expire them

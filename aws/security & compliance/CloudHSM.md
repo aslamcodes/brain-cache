@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 KMS - AWS Manages the software for encryption
 HSM - AWS provisions encryption hardware
 We manage our own encryption key entirely, not AWS intervention

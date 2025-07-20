@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 ## change sets
 tf plan -> create changesets
 tf apply - > direct update or use change sets and apply them

@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Unified CloudWatch Agent = single agent for:
 - Metrics (like CPU, memory, disk)
 - Logs (CloudWatch Logs)

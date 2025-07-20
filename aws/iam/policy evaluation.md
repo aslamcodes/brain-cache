@@ -1,8 +1,21 @@
 ---
 dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
 ---
 
+---
+dg-publish: true
+---
 ![[policy evaluation-1752904322048.png]]
+This image if not carefully interpreted, might mislead you into thinking "Resource based policy or Identity policy". It says See Resource base policies section, but what section
+
+1. **Explicit Deny**: Any explicit deny statement wins above all else
+2. **Explicit Allow**: The allows in other policies then take effect
+3. **Default Deny**: Anything left unspecified after the above steps is denied
+
 https://builder.aws.com/content/2d1bIioM3UgQZqyaYquu3kTaWAg/comprehensive-guide-of-aws-iam-policy-evaluation-logic
 
 ```embed

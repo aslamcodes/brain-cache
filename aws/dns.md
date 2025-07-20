@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Previously called Amazon DNS Server
 
 Available by default in all vpcs or is it available on our wish?

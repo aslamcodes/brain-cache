@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 ## General
 Autonomous System
 - Group of IP networks, run by one or more network operators, Adminstrative entitty (ISPs, Enterprise, Mobile Networks, Telecomm Network Operators..)

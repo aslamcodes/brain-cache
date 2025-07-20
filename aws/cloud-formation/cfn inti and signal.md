@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 cfn-init
 - The script must be called from user data
 - takes in stack id, region, instance 

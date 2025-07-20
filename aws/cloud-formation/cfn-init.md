@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > A Python script that fefches from the metadata block uses it own logic to perform all of the tasks, simplifying the usedata complexity
 ![[Udemy ScreenShot 2025-07-03 13-54-15.jpeg]]
 

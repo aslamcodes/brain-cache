@@ -1,5 +1,13 @@
 ---
 dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
+---
+dg-publish: true
 ---
 
 - EBS volumes are AZ scoped, since they are often scoped to hardware

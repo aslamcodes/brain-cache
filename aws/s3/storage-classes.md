@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Durability - 99.99999..9% 11 9's 
 Availability - 99.99% Availability, 53 minutes a year
 

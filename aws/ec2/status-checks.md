@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - Automated checks to idenify software or hardware issues
 - System Status checks
 	- Problems With AWS Systems

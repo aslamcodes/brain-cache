@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Single Tenant vs Multi tenant
 Same standard FIPD Lever 3 compliacne, don't know what's that
 AWS manged keys vs Customer managed

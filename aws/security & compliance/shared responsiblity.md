@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 AWS Responsibility - Security of the cloud
 My Responsibility - security in the cloud
 

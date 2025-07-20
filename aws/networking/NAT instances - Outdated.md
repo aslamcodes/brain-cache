@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 NAT will just rewrite network packets. Masking the origin ip and replace it own
 Nat instances must be launched at public subnets
 Must have a elastic ip attached to it 

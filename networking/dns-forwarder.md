@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > A DNS server contacts another nameserver when it can't resolve
 
 When you have an internal DNS server with your local company records and want to offload internet dns requests to the ISP's dns server, you can setup DNS forwarding.

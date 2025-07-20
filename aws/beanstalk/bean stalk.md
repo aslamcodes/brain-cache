@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 EC2, ELB, Route53, RDS, Elasticache and its PAAS kinda thing
 
 Worker Tier, load balanced with SQS queues, as EC2 instances pull its job

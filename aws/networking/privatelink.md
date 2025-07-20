@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 You want expose your solution in a VPC to other vpcs
 
 - You can make it public, touch to manage

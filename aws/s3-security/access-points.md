@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Instead of managing IAM policies, we can leverage access points
 
 An access points is bridge of access between poeple with prefixes with origin from vpc + vpce(must) or internet

@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 https://health.aws.amazon.com/health/status
 
 - Lists out events of service healths for each region for each day

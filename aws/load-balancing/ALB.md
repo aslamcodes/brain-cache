@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Application Load balancers
 Since works on layer 7
 - Routing based on path in URL

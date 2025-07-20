@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > Cost 20% more than RDS, delivers 5x and 3x performance improvement for MySQL and Postgres respectively
 
 - Cloud Optimised, or AWS Optimised

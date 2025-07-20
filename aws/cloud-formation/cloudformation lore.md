@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 ### 🔧 Core Functions:
 - `!Ref` → get value of param or resource  
 - `!GetAtt` → get attribute (e.g. `!GetAtt EC2Instance.PublicIp`)  

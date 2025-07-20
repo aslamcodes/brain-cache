@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > Finding out all the different vulnerabilities to exploit the system with various different methodologies
 
 Attack your own infrastructure

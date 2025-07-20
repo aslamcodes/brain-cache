@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Amazon Inspector
 Run assessments that check security exposures and vulnerabilities in EC2 instances
 

@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Deals with TCP and UDP (Layer 4) level traffic
 Has one static IP per AZ and supports assinging EIP, helpful for whitelisting IPs
 

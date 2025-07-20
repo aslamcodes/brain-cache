@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 https://www.youtube.com/watch?v=OJa0WsB_FJk
 # What
 Automates the patching of managed instances,

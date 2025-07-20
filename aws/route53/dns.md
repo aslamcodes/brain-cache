@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # DNS Flow from DNSsimple.com
 - Browser -> Browser cache
 - Browser -> OS

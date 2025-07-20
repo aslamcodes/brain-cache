@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Service Logs
 - Cloudtrail API logs
 - Config rules - track config and compliance over time

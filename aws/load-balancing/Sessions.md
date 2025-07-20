@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Sticky sessions
 Uses cookies to preserve sessions
 Might cause imbalance in the load

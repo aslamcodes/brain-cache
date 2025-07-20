@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 When cloudtrail logs are exported to s3, cloud trail maintains the logs in files, and a digest file
 
 The digest file will contain hashes, will help in verifying intergrity of a file

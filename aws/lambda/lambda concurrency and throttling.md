@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 concurrency can be controlled as Lambda can scale up to 1000GB
 
 Throttle behaviour

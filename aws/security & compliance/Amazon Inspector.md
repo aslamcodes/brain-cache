@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - Automated Security Assessments
 - Look Common Vulnerabilities Database CVE 
 - Continuous scanning only when needing

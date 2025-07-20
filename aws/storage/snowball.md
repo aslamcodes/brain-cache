@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > Highly secure portable devices, that'll help move data in and out of aws, upto PBs
 
 **Types**

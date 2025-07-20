@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Events History page list all the events happened in a particular account. 
 
 Cloudtrail events can be injected into cloudwatch logs or s3

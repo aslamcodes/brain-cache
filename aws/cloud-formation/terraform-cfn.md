@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 | **Terraform Concept**                         | **CloudFormation Equivalent**                         | **Explanation**                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Configuration (HCL files)**                 | **Template (JSON or YAML)**                           | Both define infrastructure as code, but Terraform uses HCL (HashiCorp Configuration Language) which is more readable, while CloudFormation uses JSON or YAML templates familiar to many AWS users[](https://cyberpanel.net/blog/cloud-formation-vs-terraform)[](https://zeet.co/blog/terraform-vs-cloudformation).                                                                                                                             |

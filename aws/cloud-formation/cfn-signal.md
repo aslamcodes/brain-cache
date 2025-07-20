@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > Way to know if the cfn init worked as expected
 
 - The cfn-signal command executes right after cfn-init **conventionally**

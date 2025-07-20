@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - Network attached storage, without the OS knowing
 - Persists data even if you want, after termination. And The same ec2 can be recreated
 - EBS volumes are bound to AZ, hardware scoped

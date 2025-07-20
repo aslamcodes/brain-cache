@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 By default the api calls are tracked by cloudtrail which will end up as events in eventbridge which can have rule, which in turn can have targets
 
 ![[Udemy ScreenShot 2025-07-01 16-34-10.jpeg]]

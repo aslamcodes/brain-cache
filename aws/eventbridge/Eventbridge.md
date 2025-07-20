@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - Event source - aws services, eventbridge partners
 - AWS service/ Partner - choose the source
 - Event type - Each event provider (aws service / partner) have multiple event types

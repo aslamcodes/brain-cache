@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 The servivce name is quite not fitting according to stephane
 
 - Allow external users for temporary access into aws 

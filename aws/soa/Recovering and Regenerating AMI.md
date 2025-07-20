@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 The exam might confuse me between recover and creating an AMI
 
 There's no recovery once an AMI is deleted. 

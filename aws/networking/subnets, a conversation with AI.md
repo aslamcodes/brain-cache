@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 **Perplexity**: Broadcasting is less noisy, as we have breakout subnets
 
 **Me:** Alright, is broadcasting that much important in network and it clogs the network? I don’t seem to see applications leveraging broadcasting feature

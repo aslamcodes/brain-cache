@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 High level AWS account Assessment for best practice and excellence
 
 - Do you have public EBS, RDS snapshots? Are you using root account?

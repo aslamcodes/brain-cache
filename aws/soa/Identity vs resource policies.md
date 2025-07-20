@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - **Both identity-based and resource-based policies must allow** access if both exist.
  
 - **Explicit deny overrides all allows** in either policy.

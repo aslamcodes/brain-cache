@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 https://www.youtube.com/watch?v=U-OCdTeZLac&t=54s
 
 > The operating system sees the two disks as a single drive

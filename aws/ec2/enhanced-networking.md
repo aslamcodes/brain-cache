@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 
 EFA - Improved ENA, for linux only. Bypasses the linux OS for low latency. 🤷
 

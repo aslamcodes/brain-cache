@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Define a max spot price bid, keep the instance
 
 If current spot price > max price, choose to stop or terminate, all within 2 minutes time.

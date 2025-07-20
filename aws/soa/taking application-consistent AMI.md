@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 #ami
 Note
 - AMI is **region specific** since they are stored in **S3**, **AMIs are basically ec2 config + its volume snapshots**

@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Shield
 - Primarily operates on layer 3 and 4 
 - Protects from 

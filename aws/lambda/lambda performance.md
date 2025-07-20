@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 RAM - 128MB to 10GB
 CPU - Increase the RAM, which implicitly improves CPU
 	 - At 1792MB ram, you'll get one full vCPU

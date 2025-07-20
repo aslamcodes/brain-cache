@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 AWS services like ASG, SSM, RDS will have default attached role managed by AWS
 
 1. AWSServiceRoleForAutoScaling

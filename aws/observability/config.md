@@ -1,7 +1,14 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Setup config rules for compliance
 it does not prevent from deviating
 Gives you a overview of configuration and compliance for resources
-
 # Actions
 **SSM Documents**
 - Remediation can be automated with SSM Documents

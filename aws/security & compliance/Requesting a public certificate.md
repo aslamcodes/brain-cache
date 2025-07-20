@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Prerequisites
 FQDN - corp.example.com. or Wildcard domain \*.example.com
 DNS validation or Email validation 

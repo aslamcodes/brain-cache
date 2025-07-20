@@ -1,3 +1,10 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
 > a buffer is temporary storage we use when one component feeds data to the other, but their speeds aren’t the same.
 
 Buffer is abstract, but it’s powerful because it can be applied anywhere you need to manage timing, speed, or processing differences.

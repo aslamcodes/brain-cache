@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Star connection, Hub and Spoke Connection between VPC
 
 OG mass service

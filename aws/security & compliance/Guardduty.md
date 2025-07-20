@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 > Intelligent threat discovery to protect your AWS account
 
 Uses ML algos, performs Anamoly detection and third party data

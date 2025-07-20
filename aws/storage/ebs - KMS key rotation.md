@@ -1,5 +1,13 @@
 ---
 dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
+---
+dg-publish: true
 ---
 
 EBS does not re-encrypt all the data once the key material got rotated. But ... IDK

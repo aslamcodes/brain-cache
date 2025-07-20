@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Changing KMS key for encrypted EBS volume
 - This can't done straightforward way
 - Create a encrypted snapshot

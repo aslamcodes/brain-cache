@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 On Demand: Predictable, Short Workload, Pay by second
 Reserved: 1 or 3 year terms
     Convertible: can change instance type

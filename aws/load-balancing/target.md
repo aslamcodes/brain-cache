@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Slow start
 - Time load balancer gives for a given target to warm before it receives it full share of requests
 

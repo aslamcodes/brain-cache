@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Desired Capacity - The Goal ASG tries to match at any given time
 Minimum and Maximum capacity - as it sounds
 

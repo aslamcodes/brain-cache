@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # VPC +2
 > VPC+2 ip address is a shorthand for a VPC's ip address and .2
 

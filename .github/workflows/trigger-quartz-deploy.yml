@@ -1,0 +1,18 @@
+# .github/workflows/trigger-quartz-deploy.yml
+name: Trigger Quartz Deploy
+
+on:
+  push:
+    branches: [main] 
+
+jobs:
+  notify-quartz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Quartz Deploy
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          repository: aslamcodes/quartz
+          event-type: notes-updated
+

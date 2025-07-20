@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Basic
 Install a agent, comes with Amzon linux 2 ami, and some ubuntu ami
 If ssm not works, there are some issues with agent

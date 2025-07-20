@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Stores file as objects
 Name must be globally unique accorss all regions and acounts
 But S3 buckets created regional level

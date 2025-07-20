@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 cfn uses a service role, that defines what are the resources cfn has access to
 cfn service role - dedicated to cfn - allows create/update/deletion
 

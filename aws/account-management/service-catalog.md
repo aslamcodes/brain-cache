@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 ![[Udemy ScreenShot 2025-07-05 15-24-11.jpeg]]
 
 Admin - creates products (pre configured cloud formation template, terraform, external)

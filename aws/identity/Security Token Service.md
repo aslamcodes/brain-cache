@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Grant limited access to AWS resources via Token
 
 To get the token - API call AssumeRole, AssumeRoleWithSAML (probabbly this is how i'm getting my creds for sandbox account), AssumeRoleWithWebIdentity (use cognito Instread)

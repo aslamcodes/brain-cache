@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Overview
 - Primarily operates on application layer 7
 - Deployed on layer 7 friendly services such as ALB, Gateway, cloudfront

@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 #ec2
 - Instances backed with instance store will lose its data as its ephemera
 - There will be downtime while resizing, downtime to be planned

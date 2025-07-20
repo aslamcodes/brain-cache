@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Encryption at Rest and In Transit
 In Transit - SSL/TLS encrypts the transit
 At Rest - Algorithms and Keys encrypts data as it is written

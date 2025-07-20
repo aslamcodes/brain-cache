@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Mostly backed up by lambda function or SNS
 
 Define custom provisioning logic 

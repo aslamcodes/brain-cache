@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Its more like NAT, for IPv6. Since NAT is for IPv4, just rewriting ip address. 
 
 Since ipv6 is vast, we don't need that, that's why egress only internet gateway exists, you could also use an iGW if you prefer allowing inbound.

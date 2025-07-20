@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # Source
 Source can be manifest.json from other batch operation, a CSV file or create manifest on the fly (assuming)
 We can use s3 inventory to generate a list and use athena to query and pass it to batch operations 

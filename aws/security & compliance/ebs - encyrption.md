@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 What does it mean to say a EBS volume is encrypted, wouldn't that mess up the file system, files? How the OS access it?
 
 When an EBS volume is _encrypted_, it means:

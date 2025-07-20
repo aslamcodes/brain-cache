@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # What are storage engines? 
 A storage engine is a software component within a database management system (DBMS) that handles the physical storage, retrieval, and management of data
 - Determines how data is stored in disk or in memory

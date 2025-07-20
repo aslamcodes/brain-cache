@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 - Replicate across multiple regions
 - Keep the read replicas in sync with primary secret
 - Replica can be promoted as a standalone secret

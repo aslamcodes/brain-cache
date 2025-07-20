@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 There is a default DNS resolver available for all VPCs at VPC+2 ip, resolving requests to local ec2 instances, public names servers, and for private host zones
 
 Hybrid-DNS

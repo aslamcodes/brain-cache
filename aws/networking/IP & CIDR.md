@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 Classless Inter domain routing - x.x.x.x/32
 Base IP + Subnet mask
 Subnet mask defines how many bits can change

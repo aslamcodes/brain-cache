@@ -1,3 +1,11 @@
+---
+dg-publish: true
+tags: 
+type: 
+date: 19th July 2025
+done: false
+---
+
 # FSx
 - Managed File system for third party filesystems, Liks RDS
     - FSx Lustre
