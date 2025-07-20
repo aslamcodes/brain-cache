@@ -41,3 +41,7 @@ Custom health check via set-instance-health api
 
 # AWS Auto Scaling
 All the scalable resources in aws
+
+
+If you resource is request heavy consider ELB metrics
+If you resource is compute heavy consider EC2 metrics
