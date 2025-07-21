@@ -5,10 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
----
-dg-publish: true
----
 # Policy Evaluation
 Stage 0: Explicit Deny, in any policies
 1. If there's a explicit deny anywhere, its denied (Deny Overide any Allow)
