@@ -1,5 +1,4 @@
 ---
-dg-publish: true
 tags: 
 type: 
 date: 19th July 2025
@@ -35,6 +34,7 @@ $2,62,974.60 after discount you pay ~$75000
 # Spot Instance
 90% discount, but the instances will be lose
 Workload resilient to failure
+You can't enable termination protection for spot instances
 # Dedicated Host
 Dedicated host for your EC2 instances
 Compliance requirements, VM software licences like per core, per server
