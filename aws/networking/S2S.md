@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # VPN 
 > The vpn tunnel, is what that is based on IPSec, VPN connection refers to the abstract concept of two vpn tunnels enabling VPN connection
 

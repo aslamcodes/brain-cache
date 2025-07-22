@@ -5,9 +5,7 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 You want expose your solution in a VPC to other vpcs
-
 - You can make it public, touch to manage
 - You can have multiple peering connection, opens up whole vpc for just this service
 - You can have private link, exposes a service name, and you create ENIs in other vpcs that attaches to this privatelink' ed service via AWS networking
