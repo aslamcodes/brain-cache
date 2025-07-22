@@ -8,7 +8,6 @@ done: false
 - Listener
 - Rules
 - Actions
-
 # Listener
 > A process that checks for incoming traffic based on your configuration and reacts based on the rules
 - Listens on a specific port (e.g., 80 or 443) for incoming traffic.
@@ -16,9 +15,7 @@ done: false
 	- Protocol
 	- Port
 	- TLS termination
-
 > [!NOTE] Each listener must have at least one default rule.
-
 https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html#listener-rules
 # Rules
 - Rules will get attached to  a load balancer
@@ -47,6 +44,5 @@ https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balance
 }
 
 ```
-
 # Target group
 - targets in the target group can be in different AZs
