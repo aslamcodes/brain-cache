@@ -18,6 +18,11 @@ done: false
 	- TLS termination
 
 > [!NOTE] Each listener must have at least one default rule.
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html#listener-rules
 # Rules
 - Rules will get attached to  a load balancer
-- 
+- Each rule has a priority and priority det
+# Action
+- https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html#rule-action-types
+- redirect, forward, fixed response....
