@@ -13,7 +13,5 @@ VGW is used to setup the connction
 Consistent network experience and increased bandwidth
 
 AWS Cage | Customer or partner cage for rent a router
-
-
 S2S as backup
 - If theres' an issue, you can setup S2S as backup for resiliency
