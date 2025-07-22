@@ -15,6 +15,8 @@ done: false
 	- For distributing the files across the edges
 	- For uploading via cloudfront to s3
 	- Secured using OAC Origin Access Control
+	- `!Important` cloudfront uses HTTP to connect with S3, you can optionally mandate public access to cloudfront via HTTPs
+	- 
 - VPC origin
 	- Application hosted in a private subnet?
 	- ALB, NLB, EC2 instances
