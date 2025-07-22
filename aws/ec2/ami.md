@@ -45,6 +45,5 @@ https://repost.aws/questions/QUtlFiTOMNRn-xAk6uJnHnwg/shared-vs-copy-ami
 # EC2 Image Builder
 - Automate the creation of AMIs
 - Pipelines, Components, Recipes
-
 - EC2 Image builder -> install -> AMI -> Tests -> Distributions
 
