@@ -10,6 +10,6 @@ done: false
 - Cross Network Connection
 - Public VIF
 - It's not possible to directly access an S3 bucket through a private virtual interface (VIF) using Direct Connect
-
 # References
 - [[s3-vpce]]
+- [[public endpoint with vpce]]

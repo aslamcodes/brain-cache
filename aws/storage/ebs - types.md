@@ -35,7 +35,7 @@ It wasn’t a bad assumption for the general case, but it **didn’t fit many re
 - designed for high IO intensive workloads, such as databases
 -  100 IOPS up to 64,000 IOPS
 - maximum ratio of provisioned IOPS to requested volume size (in GiB) is 50:1
-- for 100 GB its 5000 IOPS
+- for 100 GB its 5000 IOPS. Ie the maximum is 50 IOPS for 1 GB
 - But maximum iops is 64000 for 1280GB or larger
 # Modifying volume 
 - After modifying a volume, you must wait at least **six hours** and ensure that the volume is in the `in-use` or `available` state before you can modify the same volume.

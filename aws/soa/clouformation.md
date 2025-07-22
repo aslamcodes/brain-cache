@@ -44,3 +44,6 @@ Resources:
 - `DeletionPolicy` is per-resource.
 - Doesn’t protect from **explicit deletes** outside CloudFormation.
 - Doesn’t stop updates that **replace** the resource.
+
+# Termination protection
+- If you attempt to delete a stack with termination protection enabled, the deletion fails and the stack - including its status - remains unchanged
