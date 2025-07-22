@@ -20,6 +20,6 @@ Target Groups
 
 The IP address will be in X-Forwarded-For 
 The Port will be in X-Forwared-Port
-The Proto will be in X-Forwarded-Proto
+The Proto will be in X-Forwarded-Proto 
 
 
