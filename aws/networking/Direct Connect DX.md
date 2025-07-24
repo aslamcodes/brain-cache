@@ -5,6 +5,21 @@ type:
 date: 19th July 2025
 done: false
 ---
+# Components
+- Direct Connect Connection
+- VIFs
+- Customer Router
+- AWS Router
+- [[bgp|BGP]]
+- LOA-CFA
+- Direct Connect Location
+- Direct Connect Gateway (DXGW)
+- [[Transit Gateway]]
+- Redundant Connections (for HA)
+- Link Aggregation Group (LAG)
+- Router Peer IPs / ASN
+- Route Tables
+- Colocation Facility / Partner Network
 
 ![[Udemy ScreenShot 2025-06-30 12-01-20.jpeg]]
 Dedicated private connection to remote network into VPC
