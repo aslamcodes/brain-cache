@@ -5,10 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
----
-dg-publish: true
----
 ![[policy evaluation-1752904322048.png]]
 This image if not carefully interpreted, might mislead you into thinking "Resource based policy or Identity policy". It says See Resource base policies section, but what section
 

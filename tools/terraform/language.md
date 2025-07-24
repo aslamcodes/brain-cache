@@ -6,7 +6,6 @@ done: false
 ---
 - [ states can be encrypted if you configure your backend, if s3 such as](https://developer.hashicorp.com/terraform/language/backend/s3)
 	- Uses backed enabled encryption of s3
-
 - The implicit dependency in on the `web_server` as it uses the eip.
 ```HCP
 resource "aws_eip" "public_ip" {

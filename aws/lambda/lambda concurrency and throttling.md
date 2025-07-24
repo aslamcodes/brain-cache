@@ -18,5 +18,9 @@ Concurrently Issue
 - It is recommended reserve =limit concurrency
 
 **Provisioned Concurrency**
-Cold Start - The cold has to be loaded, many dependencies, code outside the lambda handler, the process can take some time to serve the first connection
-So **allocate concurrency** before any invocations
+- Cold Start - The cold has to be loaded, many dependencies, code outside the lambda handler, the process can take some time to serve the first connection
+- So **allocate concurrency** before any invocations
+- Charged **even when idle**.
+# Reserved concurrency
+- Sets max limit for concurrent lambda execution
+- Helps lambda eating all concurrency of your account

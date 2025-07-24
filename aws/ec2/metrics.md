@@ -8,7 +8,7 @@ done: false
 ---
 
 Basic monitoring - metrics 5 minute interval
-Detialed Monitoring - metrcis 1 minute interval
+Detailed Monitoring - metrics 1 minute interval
 Metrics - CPU, Network, Disk and Status check metrics
 ## Custom metrics
 Basic - One minute

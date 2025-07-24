@@ -22,6 +22,13 @@ Each VPN connection includes two VPN tunnels which you can simultaneously use fo
 > You probably setup a device on on-premises, and you create a AWS resource customer gateway, which lets AWS know the device
 
 # Virtual Private gateway (VGW)
+- AWS managed [[ipsec]] and [[bgp]] edge device
+	- **VPN concentrator** → for **Site-to-Site VPN** (IPsec tunnels).
+	- **Routing target (BGP edge)** → for **Direct Connect** (**private VIF** termination).
+- **VGW** serves both roles, depending on how it's used:
+	- If used with **VPN**, it handles IPsec + BGP.
+	- If used with **DX**, it just does **BGP** (no IPsec).
+- **VPN concentrator** or **routing target**.
 - The created on aws side
 - You can choose to give you ASN
 - Which then have to be attached to a VPC
