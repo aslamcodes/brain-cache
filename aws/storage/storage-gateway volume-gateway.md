@@ -11,3 +11,5 @@ done: false
 # Types of volume gateway
 - **Cached volumes**
 - **Stored volumes**
+
+> Cached Volume variant because the metrics `CacheHitPercent` and `CachePercentUsed` are not supported in Stored Volumes

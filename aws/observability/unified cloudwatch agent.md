@@ -417,7 +417,7 @@ Current config as follows:
 
 "measurement": [
 
-"used_percent"
+	"used_percent"
 
 ],
 
@@ -435,7 +435,7 @@ Current config as follows:
 
 "measurement": [
 
-"mem_used_percent"
+	"mem_used_percent"
 
 ],
 

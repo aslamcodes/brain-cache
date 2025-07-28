@@ -5,6 +5,8 @@ type:
 date: 19th July 2025
 done: false
 ---
+- Execute runbooks which is architected, designed workflows around api actions and change manament that integrates deeply within ssm functionalities. 
+- Develop automation solutions that deploy, configure aws resources at scale.\
 
-Execute runbooks which is architected, designed workflows around api actions and change manament that integrates deeply within ssm functionalities. 
+
 

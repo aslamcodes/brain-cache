@@ -15,3 +15,6 @@ done: false
 	- or as a hardware appliance
 - The gateway can be deployed in AWS or VMWare cloud if your onprem is virutualised 
 - Provides low-latency access to data through **transparent local caching**
+- Write operations stored in the local caches and asynchronously synced up with S3
+
+> [!NOTE] Atleast 150 Gigs is required for the local cache

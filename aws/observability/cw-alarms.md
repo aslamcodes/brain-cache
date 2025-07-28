@@ -15,6 +15,7 @@ Used to trigger notifications for any metric using various options (max, min)
 - EC2 - Stop, Terminate, Reboot, Recover
 - Trigger auto scaling
 - SNS
+- OpsCenter action
 ## Composite Alarms
 -  Monitor states of multiple alarms, using boolean ops, AND, OR conditions
 - Alarm noice can be reduced with this

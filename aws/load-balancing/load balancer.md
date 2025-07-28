@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 - Handle failures of downstream instances seamlessly
 - Health checks
 - SSL terminations

@@ -19,6 +19,7 @@ Routing from a DNS perspective, On how it responds to DNS requests
 **Latency Based**
 - Latency based on how close users are between AWS regions
 - Routed to regions that has lowest latency
+![[routing-policy-1753532512697.png]]
 
 **Failover**
 - ![[failover-routing-pocliy.jpeg]]
@@ -38,6 +39,7 @@ Routing from a DNS perspective, On how it responds to DNS requests
 - Configuration
 	- Create records with same name
 	- Use `add new record` button to add more locations
+![[routing-policy-1753532562209.png]]
 
 **Geoproximity**
 
@@ -60,14 +62,14 @@ Red circle - More resources, you assing more bias, yellow circle, low resources,
 - Visual editor helps us to make decision
 - After configuring we can deploy to a hosted zone
 - Can be versioned, as its just a json code 
-
 **IP based routing**
 - Based on client's CIDR range
 - Useful if we know the client's cidr range
-
 **Multivalue routing**
 - Multiple A records without multivalue routing simply return all IPs regardless of health.
 - Multivalue routing adds **health checks** and selective response of only healthy IPs. 
 - It provides **randomized responses** to distribute traffic roughly evenly. 
 	- Clients will receive all records, and they pick. But they only receive health ones
+
+
 

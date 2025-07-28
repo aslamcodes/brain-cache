@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # Storage Classes
 - EFS Standard: High performance 
 - EFS IA: Cost Optimised

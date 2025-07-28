@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # FSx
 - Managed File system for third party filesystems, Liks RDS
     - FSx Lustre
@@ -31,14 +30,12 @@ done: false
 - Integrated with s3, read through adn write to s3 
 
 Both can be accessed from on prem, s2s, dc
-
 ## Fsx for NetApp onTap
 - Compatible with NFS, SMB, iSCSI protocol
 - move from NAS, Ontap to AWS
 - Windows, linux, MacOS, worksapces & appstream, VMWare cloud on AWS, Ec2, eks and ecs
 - Shirk or grow automatically
 **Point it time cloning, for testing workloads**
-
 ## FSx for OpenZFS
 - Managed openZFS
 - Only with NFS

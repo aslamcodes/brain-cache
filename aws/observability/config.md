@@ -5,7 +5,8 @@ type:
 date: 19th July 2025
 done: false
 ---
-
+> Provides a default view of all configurtion throughtout your account of supported aws resources
+> 
 Setup config rules for compliance
 it does not prevent from deviating
 Gives you a overview of configuration and compliance for resources

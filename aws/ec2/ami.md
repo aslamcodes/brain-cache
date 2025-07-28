@@ -6,7 +6,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # AMI - Amazon Machine Image
 AMIs is built specific to region. So different AMI ids.
 ## **AMIs are regional because**
@@ -20,28 +19,22 @@ AMIs is built specific to region. So different AMI ids.
 - Stop (recommended, but skipable.)
 - Take AMI (Snapshots internally)
     - Actions -> Images and Templates -> Create an Image
-
 ### No Reboot AMI
 - Create AMI without rebooting
 - 💡AWS Backup plans uses no-reboot internally
 
 ![[ami-no-reboot.jpeg]]
-
 ## Migrating EC2 instance between AZs
 - Take AMI from Source
 - Share AMI
 - Launch Ec2
-
 ### Cross Account AMI sharing
 - If AMIs are shared cross account, with encryption, the CMKs has to be also shared
 - Uncrypted volume can shared. 
 - 🚨Same as EBS snapshot
-
 ### Cross Account AMI Copying
 - Copying leaves us with no ownership?
-
 https://repost.aws/questions/QUtlFiTOMNRn-xAk6uJnHnwg/shared-vs-copy-ami
-
 # EC2 Image Builder
 - Automate the creation of AMIs
 - Pipelines, Components, Recipes

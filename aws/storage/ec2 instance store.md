@@ -10,6 +10,9 @@ done: false
 - Backups and Restoration are our RESPONSIBLITY
 - Ephemeral, only for ephemeral IO operations, buffer, cache, temporary content
 
-## Taking AMI for instance stored instances
+Reboot and Hibernate will not affect the data. Since its a hot reboot. Cold reboot replaces the instances
+## Taking AMI for instance stored instances 
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-an-ami-instance-store.html
+- The AMI is just the EC2 configuration and the root OS
 ## Resizing an Instance
+- When you stop an instance, the data on any instance store volumes is erased. To keep data from instance store volumes, be sure to back it up to persistent storage.

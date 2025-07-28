@@ -6,3 +6,4 @@ done: false
 ---
 - Maintains the connection pool for us
 - Supports Auto Scaling for connections
+- RDS Proxy is like DNS failover

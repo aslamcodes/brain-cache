@@ -14,3 +14,4 @@ done: false
 	- Snapshot (Restore into a EB environment or standalone instances)
 	- Retain
 	- Delete (Dangerous)
+https://repost.aws/knowledge-center/decouple-rds-from-beanstalk

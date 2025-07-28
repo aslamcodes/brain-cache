@@ -25,10 +25,10 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-conte
     {
       "Sid": "AllowCloudFrontAccess",
       "Effect": "Allow",
-      "Principal": {
-        "CanonicalUser": "OAI-Canonical-User-ID"
-		// "CanonicalUser": "E23ABCXYZ12345"
-      },
+	  "Principal": {
+		"CanonicalUser": "OAI-Canonical-User-ID"
+			// "CanonicalUser": "E23ABCXYZ12345"
+        },
       "Action": "s3:GetObject",
       "Resource": "arn:aws:s3:::your-bucket-name/*"
     }
