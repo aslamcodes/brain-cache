@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 #ami 
 **Points to remember**
 AMI - Instance config data + EBS snapshots

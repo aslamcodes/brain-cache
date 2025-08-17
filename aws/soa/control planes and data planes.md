@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 - Control planes provide the administrative APIs used to create, read/describe, update, delete, and list (CRUDL) resources
 - The data plane is what provides the primary function of the service
 

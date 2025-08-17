@@ -9,7 +9,6 @@ Blocking unwanted IPs from NACL or SG Level
 Full mesh means connecting all vpcs together
 You cannot terminate resources using aws billing alarms
 aurora db.serverless class
-
 - If you have millions of s3 object version, it might result in 5xx errors, [[s3 Transfer accelerator and Global Accelerator]] would not work here as it is just for speeding up the transfer. it won't help for internal throttling
 - You can have a lifecycle policy to pause instance termination
 - [[rds - proxy]]
@@ -29,7 +28,7 @@ aurora db.serverless class
 - `instance profile associated with the environment does not exist` - the role used to launch the environment does not have permission to create roles.
 - Bucket policy
 	- "Resource": "arn:aws:s3:::tutorialsdojo" - `Action does not apply to any resource(s) in statement`
-	- "Resource": "arn:aws:s3:::tutorialsdojo" and "Resource": "arn:aws:s3:::tutorialsdojo/*" - `Action does not apply to any resource(s) in statement`
+	- "Resource": "arn:aws:s3:::tutorialsdojo" and "Resource": "arn:aws:s3:::tutorialsdojo/\*" - `Action does not apply to any resource(s) in statement`
 - When using server-side encryption with customer-provided encryption keys (SSE-C), you must provide encryption key information using the following request headers:
 	1. `x-amz-server-side​-encryption​-customer-algorithm`
 	2. `x-amz-server-side​-encryption​-customer-key`
@@ -40,11 +39,9 @@ aurora db.serverless class
 	-  `WRITE` and `WRITE_ACP`
 	-  `FULL_CONTROL`
 - If the eviction count has exceeded the chosen threshold, you need to scale the cluster up using a larger node type or scale out by adding more nodes to accommodate the additional data
-
 	- **Cluster** – packs instances close together inside an Availability Zone. This strategy enables workloads to achieve the low-latency network performance necessary for tightly-coupled node-to-node communication that is typical of HPC applications.
 	- **Partition** – spreads your instances across logical partitions such that groups of instances in one partition do not share the underlying hardware with groups of instances in different partitions. This strategy is typically used by large distributed and replicated workloads, such as Hadoop, Cassandra, and Kafka.
 	- **Spread –** strictly places a small group of instances across distinct underlying hardware to reduce correlated failures.
-
 - reduce latency by routing user’s requests to the endpoint closest to them, requires static IP addresses - AWS global accelerator
 - MTU
 - ipv6 to connect to the internet

@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 - New EBS volume will get automatically picked up by the OS
 - However extending one we have to extend the file system to a larger size
 - Does not care about encryption

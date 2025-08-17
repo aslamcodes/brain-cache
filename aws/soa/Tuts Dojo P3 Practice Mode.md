@@ -15,7 +15,7 @@ If you setup Secrets manager for RDS, Redshift, DocumentDB, Redshift cluster. Th
 
 Its better to use s3 hosting for static pages and take the load off of a database. Use elasticache when the content is frequency fetched from the database. Read replicas for read heavy database workloads
 
-[[health-checks]] Apparently you can set this evaluate target health to yes, which enables health checking and failover if the resource deemed to be unhealthy. ![[Tuts Dojo P3-1753532255062.png]]
+[[health-checks]] Apparent health to yes,tly you can set this evaluate targe which enables health checking and failover if the resource deemed to be unhealthy. ![[Tuts Dojo P3-1753532255062.png]]
 
 
 Cloudfront origin shield - [additional caching layer](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/origin-shield.html)
@@ -25,10 +25,10 @@ CW alarm if all instances became unhealthy
 	![[Tuts Dojo P3-1753533437605.png]] and dfine the alarm as `HealthyHostCount <= 0`
 
 Backups and Auto Scaling in RDS and Aurora
-- RDS backups data with user configurable 0 - 35 retension days
+- RDS backups data with user configurable 1 - 35 retension days
 - [[rds - backups]]
 
-- Aurora backups are continuous and incremental and retained up 0-35 days 
+- Aurora backups are continuous and incremental and retained up 1-35 days 
 - [[aurora autoscaling]]
 
 `DiskReadOPS` is only for instance store instances that will displayed under EC2 metrics. most of the EBS volume metrics starts with Volume*
@@ -66,7 +66,6 @@ EBS **AutoEnableIO**
 - The EC2 bandwidth to the EBS server will allocated more than for networking
 - When you stop an instance, the data on any instance store volumes is erased. To keep data from instance store volumes, be sure to back it up to persistent storage.
 ![[Tuts Dojo P3-1753539550227.png]]
-
 ![[Tuts Dojo P3-1753539635556.png]]
 ![[Tuts Dojo P3-1753579299668.png]]
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimization-performance.html 
@@ -85,7 +84,6 @@ Surely there's a link
 - **NACLs** would only make sense if:
 - The IP is attacking at **other network layers**, or
 - You want to block access to **all resources** (not just web apps) in the subnet.
-
 ![[s3 Transfer accelerator and Global Accelerator]]
 
 ![[storage-gateway instance-disk-and-cache]]
@@ -95,7 +93,6 @@ Surely there's a link
 ![[storage-gateway tape-gateway]]
 
 AWS EMR - Apache Spark
-
 Health Events on your cloud resources - AWS personel health or AWS health
 Health Events on general - AWS Service Health
 

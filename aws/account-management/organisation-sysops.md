@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # Billing
 All accouns in a aws organisation is treated as one account for billing
 If you purchase RI from any other account, any other account can enjoy it

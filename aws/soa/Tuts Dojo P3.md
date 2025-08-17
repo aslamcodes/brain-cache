@@ -8,7 +8,6 @@ done: false
 - Use AWS organisation's tag polices to enforce what are the things that should go into an tag, the capitalisation and accepted values. However you cannot enforce tag creation with it. You would need to use SCPs to do that.
 - You can use [[resource group]]'s tags editor to Find resources and tag them whatever you want
 - This is useful if you need to enforce tag creation.
-
 **Pending to Terminated when created**
 - EBS Volume limit reached
 - EBS Snapshot is currupt

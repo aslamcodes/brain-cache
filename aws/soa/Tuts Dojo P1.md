@@ -4,10 +4,8 @@ type:
 date: 2025-07-25
 done: false
 ---
-  
-
 [https://tutorialsdojo.com/aws-identity-and-access-management-iam/](https://tutorialsdojo.com/aws-identity-and-access-management-iam/)
- [https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/](https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/)
+[https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/](https://tutorialsdojo.com/service-control-policies-scp-vs-iam-policies/)
 [https://tutorialsdojo.com/comparison-of-aws-services/](https://tutorialsdojo.com/comparison-of-aws-services/)
 
 - You can customise your URL of sign in, and you CANNOT use single URL for multiple accounts even if the accounts are under Organization
@@ -39,9 +37,10 @@ done: false
 -  Go to Billing Preferences in the management account and disable RI discount sharing. Then, purchase the RIs using individual member accounts.
 - If there's a REJECT in vpc flow logs, its either sg or nacl issue. if inbound is allowed, but not the outbound, its the nacl issue
 - RDS does not support Oracle RAC
-- [[health-checks]]
+- ![[health-checks]]
 - EC2 Recovery is an **automated recovery** feature for EC2 instances using **CloudWatch alarms**. It restarts the instance on different hardware **without changing**You **enable** it by setting a **CloudWatch alarm** for status checks (e.g., `StatusCheckFailed_System`) and **set recovery as the action**.
 - You cannot change the iops of an EFS system, you'd need to create a new efs and migrate data to it
-- [[EFS]] [[fsx]]
+- ![[EFS]] 
+- ![[fsx]]
 - procstat pluging![[Tuts Dojo P1-1753469070725.png]]
 - 

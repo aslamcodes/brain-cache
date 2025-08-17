@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 > **Highly available** means the system remains **operational with minimal downtime**, even during **failures**. It uses **redundancy, failover, and monitoring** to ensure uptime.
 
 Configuring your app with appropriate TTL is always followed after Configuring Multi AZ deployment

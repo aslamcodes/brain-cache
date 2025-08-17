@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - aws
+  - s3
+  - s3api
 type: 
 date: 2025-07-22
 done: false

@@ -11,7 +11,7 @@ done: false
 
 - S3 bucket's account - create a role with trusted policy as accessor account
 - So anybody in accessor account can access bucket
-- If to restrict access in accessor account, identity level policy can be used to restric
+- If to restrict access in accessor account, identity level policy can be used to restrict
 
 ```json
 {

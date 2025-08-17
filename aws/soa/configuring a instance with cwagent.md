@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 When I launched an instance these are coming, without configuring any agent. Probably collected via hypervisor
 
 ![[Screenshot 2025-07-12 at 15.52.19.png]]

@@ -7,11 +7,10 @@ done: false
 > [!NTOE] 
 > - Are these options related, and not independent
 > - Always read the question fully before choosing, and backtrack with your selected ansters
-1. EIP vs EIP
-2. ECS is more pricier than that of Lambda
-3. Cloudwatch Logs insights to group and analyse multiple queries that can be used to idenitfy patterns
-4. You should use event bridge to share a completed snapshot not statemachines.
-5. Not NAT idiot, its IGW used to setup Bastion hosts
+1. ECS is more pricier than that of Lambda
+2. Cloudwatch Logs insights to group and analyse multiple queries that can be used to idenitfy patterns
+3. You should use event bridge to share a completed snapshot not statemachines.
+4. Not NAT idiot, its IGW used to setup Bastion hosts
 	1. For you to be able to SSH into your EC2 instances, you must satisfy the following requirements:
 
 		You should have a public IP address or attached an Elastic IP address to your instance.
@@ -25,7 +24,6 @@ done: false
 **EC2 Rescue**
 - Troubleshoot OS level issues
 - Used to gather advanced logs and configuration files
-
 - You create a helper instances
 - attach the inaccessible root volume to the health instance
 - The helper instance should be

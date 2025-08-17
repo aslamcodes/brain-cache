@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 Manage multiple aws accounts at the same time
 The main account is organisation account
 Members can be on only one account
