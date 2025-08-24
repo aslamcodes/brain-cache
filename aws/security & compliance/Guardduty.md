@@ -5,6 +5,7 @@ date: 19th July 2025
 done: false
 ---
 > Intelligent threat discovery to protect your AWS account, Uses ML algorithms, performs Anamaly detection on third party data
+
 **Input data**
 - CloudTrail Events logs - Unusual API calls, unauthorized deployments, Management events and data events
 - VPC flow logs - Unusual IP address and traffic
