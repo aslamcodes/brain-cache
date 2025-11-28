@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 - Symmetric AES-256
 	- Single key to encrypt and decrypt
 	- AWS services mostly use Symmetric keys

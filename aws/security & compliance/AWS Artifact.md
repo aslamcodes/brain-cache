@@ -7,3 +7,5 @@ done: false
 ---
 
 Not a service but a portal to access compliance report for AWS itself
+
+![[AWS Artifact 2025-09-22 10.47.39.excalidraw]]

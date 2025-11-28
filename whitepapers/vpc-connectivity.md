@@ -6,9 +6,6 @@ date: 19th July 2025
 done: false
 ---
 
----
-dg-publish: true
----
 
 # VPC Connecitivity
 VPC connectivity with remote networks is better when it is designed with non-overlapping CIDR ranges

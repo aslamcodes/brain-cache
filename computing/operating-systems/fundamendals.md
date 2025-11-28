@@ -7,6 +7,9 @@ done: false
 ---
 Definition of OS - Kernel, (optional Middlewares), System programs and application programs that works on the OS
 
-The computing system is architected as, there's a system bus which is combined [[data line]], [[address line]] and [[control line]]. Each device has a device controller, the keyboard, mouse and displays. The [[device controllers]] handles the communication between the OS and the device itself. The device controller will have a ***local buffer storage and special purpose registers***. A device controller can have multiple devices attached to it.
+**Device Controllers, Device drivers and System Bus**
+- A Device controller is a hardware component that has local buffer and special-purpose registers which handles the communication between the OS and the device(s) it handles
+- The System bus is the universal bus, that interconnects all the device controllers
+- A Device driver understands device controller and interfaces to the rest of the Operating system
 
 ![[fundamendals-1756054183727.png]]

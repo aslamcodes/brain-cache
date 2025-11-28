@@ -11,6 +11,3 @@ Set of tags that we can use to track down costs in a detailed level
 Cost and usage reports
 - list usage by each service
 - daily exports to s3
-
-How to setup?
-- 
