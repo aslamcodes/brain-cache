@@ -1,5 +1,6 @@
 {
   "buildCommand": "bash build.sh",
   "outputDirectory": "public",
-  "installCommand": "echo 'Dependencies handled by build script'"
+  "installCommand": "echo 'Dependencies handled by build script'",
+  "cleanUrls": true
 }
