@@ -1,4 +1,5 @@
 {
+  "framework": "other",
   "cleanUrls": true,
   "outputDirectory": "quartz/public"
 }
