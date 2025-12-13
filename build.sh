@@ -1,18 +1,23 @@
 #!/usr/bin/env bash
 set -e
 
-rm -rf quartz public
+rm -rf quartz
 git clone https://github.com/jackyzha0/quartz.git quartz
 
 rm -rf quartz/content/*
-shopt -s extglob
+cp -R notes-repo/* quartz/content/
 
-cp -R !(quartz|.git|.github|node_modules|quartz.content.ts) quartz/content/
-cp quartz.config.ts quartz/
+# create index.md at runtime
+cat > quartz/content/index.md <<'EOF'
+---
+title: Home
+---
+
+# Notes
+
+Welcome.
+EOF
 
 cd quartz
 npm ci
 npx quartz build
-cd ..
-
-mv quartz/public ./public
