@@ -92,25 +92,28 @@ EOF
 fi
 
 echo "🔗 Syncing content..."
-# Remove default content
+# Remove old content
 rm -rf .quartz/content
+mkdir -p .quartz/content
 
-# Copy entire repo structure to content
-cp -R . .quartz/content/
+# Copy files and directories, excluding what we don't want
+for item in *; do
+  case "$item" in
+    .quartz|.git|.obsidian|public|node_modules|build.sh|vercel.json|.gitignore)
+      echo "Skipping $item"
+      ;;
+    *)
+      echo "Copying $item"
+      cp -R "$item" .quartz/content/
+      ;;
+  esac
+done
 
-# Remove unwanted directories from content
-rm -rf .quartz/content/.quartz
-rm -rf .quartz/content/.git
-rm -rf .quartz/content/.obsidian
-rm -rf .quartz/content/public
-rm -rf .quartz/content/node_modules
-rm -f .quartz/content/.DS_Store
-rm -f .quartz/content/build.sh
-rm -f .quartz/content/vercel.json
+# Also copy hidden files we want (like .md files that might start with .)
+# But skip the ones we explicitly don't want
 
-echo "📊 Content synced. Files in content directory:"
+echo "📊 Content synced. Markdown files:"
 find .quartz/content -type f -name "*.md" | wc -l
-echo "markdown files copied"
 
 # Create index.md if it doesn't exist
 if [ ! -f ".quartz/content/index.md" ]; then
