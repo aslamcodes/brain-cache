@@ -4,7 +4,7 @@ set -e
 git clone https://github.com/jackyzha0/quartz.git quartz
 rm -rf quartz/content/*
 
-rsync -av \
+cp -R \
   attachments aws cloud-security computing development devops networking templates tools whitepapers \
   quartz/content/
 
