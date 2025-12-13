@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
 set -e
 
-rm -rf quartz
-git clone https://github.com/jackyzha0/quartz.git quartz
+ROOT="$(pwd)"
 
-rm -rf quartz/content/*
-cp -R notes-repo/* quartz/content/
+rm -rf .quartz
+git clone https://github.com/jackyzha0/quartz.git .quartz
+
+rm -rf .quartz/content/*
+cp -R "$ROOT"/* .quartz/content/
+
+# prevent recursion / junk
+rm -rf .quartz/content/.quartz
+rm -f  .quartz/content/build.sh
 
 # runtime index.md
-cat > quartz/content/index.md <<'EOF'
+cat > .quartz/content/index.md <<'EOF'
 ---
 title: Home
 ---
@@ -16,13 +22,13 @@ title: Home
 # Notes
 EOF
 
-# runtime quartz.config.ts
-cat > quartz/quartz.config.ts <<'EOF'
+# runtime quartz config
+cat > .quartz/quartz.config.ts <<'EOF'
 export default {
   siteTitle: "aslamnotes",
 }
 EOF
 
-cd quartz
+cd .quartz
 npm ci
 npx quartz build
