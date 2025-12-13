@@ -3,18 +3,18 @@ set -e
 
 ROOT="$(pwd)"
 
-rm -rf .quartz
-git clone https://github.com/jackyzha0/quartz.git .quartz
+rm -rf quartz-build
+git clone https://github.com/jackyzha0/quartz.git quartz-build
 
-rm -rf .quartz/content/*
-cp -R "$ROOT"/* .quartz/content/
+rm -rf quartz-build/content/*
+cp -R "$ROOT"/* quartz-build/content/
 
-# prevent recursion / junk
-rm -rf .quartz/content/.quartz
-rm -f  .quartz/content/build.sh
+# cleanup
+rm -rf quartz-build/content/quartz-build
+rm -f  quartz-build/content/build.sh
 
-# runtime index.md
-cat > .quartz/content/index.md <<'EOF'
+# runtime index
+cat > quartz-build/content/index.md <<'EOF'
 ---
 title: Home
 ---
@@ -22,8 +22,8 @@ title: Home
 # Notes
 EOF
 
-# runtime quartz config
-cat > .quartz/quartz.config.ts <<'EOF'
+# Quartz v4 config
+cat > quartz-build/quartz.config.ts <<'EOF'
 import { defineConfig } from "./quartz.config.shared"
 
 export default defineConfig({
@@ -33,6 +33,6 @@ export default defineConfig({
 })
 EOF
 
-cd .quartz
+cd quartz-build
 npm ci
 npx quartz build
