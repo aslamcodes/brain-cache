@@ -19,10 +19,16 @@ EOF
 # Quartz v4 config (working)
 cat > quartz/quartz.config.ts <<'EOF'
 import { QuartzConfig } from "./quartz.config"
+import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "aslamnotes",
+  },
+  plugins: {
+    transformers: Plugin.transformers,
+    filters: Plugin.filters,
+    emitters: Plugin.emitters,
   },
 }
 
