@@ -24,9 +24,13 @@ EOF
 
 # runtime quartz config
 cat > .quartz/quartz.config.ts <<'EOF'
-export default {
-  siteTitle: "aslamnotes",
-}
+import { defineConfig } from "./quartz.config.shared"
+
+export default defineConfig({
+  site: {
+    title: "aslamnotes",
+  },
+})
 EOF
 
 cd .quartz
