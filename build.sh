@@ -8,7 +8,7 @@ rm -rf quartz/content/*
 shopt -s extglob
 
 cp -R !(quartz|.git|.github|node_modules|quartz.content.ts) quartz/content/
-cp quartz.content.ts quartz/
+cp quartz.config.ts quartz/
 
 cd quartz
 npm ci
