@@ -24,11 +24,6 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "aslamnotes",
   },
-  plugins: {
-    transformers: [],
-    filters: [],
-    emitters: [],
-  },
 }
 
 export default config
