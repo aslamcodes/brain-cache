@@ -3,6 +3,8 @@ set -e
 
 echo "📦 Setting up Quartz..."
 
+rm -rf .quartz public
+
 # Clone Quartz if not present
 if [ ! -d ".quartz" ]; then
     echo "Cloning Quartz..."
