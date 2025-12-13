@@ -5,7 +5,7 @@ git clone https://github.com/jackyzha0/quartz.git quartz
 rm -rf quartz/content/*
 
 cp -R \
-  attachments aws cloud-security computing development devops networking templates tools whitepapers \
+  index.md attachments aws cloud-security computing development devops networking tools whitepapers \
   quartz/content/
 
 cd quartz
