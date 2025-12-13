@@ -7,11 +7,10 @@ rm -rf quartz-build
 git clone https://github.com/jackyzha0/quartz.git quartz-build
 
 rm -rf quartz-build/content/*
-cp -R "$ROOT"/* quartz-build/content/
+shopt -s extglob
 
-# cleanup
-rm -rf quartz-build/content/quartz-build
-rm -f  quartz-build/content/build.sh
+# copy everything EXCEPT quartz-build and build.sh
+cp -R !(quartz-build|build.sh) quartz-build/content/
 
 # runtime index
 cat > quartz-build/content/index.md <<'EOF'
