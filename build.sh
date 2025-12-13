@@ -22,7 +22,7 @@ const config: QuartzConfig = {
     pageTitle: "aslamnotes",
     enableSPA: true,
     enablePopovers: true,
-    baseUrl: "your-site.vercel.app",
+    baseUrl: "notes.aslamcodes.in",
     ignorePatterns: ["private", ".obsidian", ".quartz"],
     defaultDateType: "created",
     theme: {
@@ -135,12 +135,12 @@ Browse my notes using the explorer on the left or search above.
 INDEXEOF
 fi
 
-echo "🔨 Building site..."
+rm -rf .quartz/node_modules .quartz/package-lock.json
 cd .quartz
-npx quartz build
-cd ..
+npm install
+npx quartz build --output public
 
-# Move output to root for Vercel
+cd ..
 rm -rf public
 mv .quartz/public ./public
 
