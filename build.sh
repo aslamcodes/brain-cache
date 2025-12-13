@@ -7,15 +7,20 @@ git clone https://github.com/jackyzha0/quartz.git quartz
 rm -rf quartz/content/*
 cp -R notes-repo/* quartz/content/
 
-# create index.md at runtime
+# runtime index.md
 cat > quartz/content/index.md <<'EOF'
 ---
 title: Home
 ---
 
 # Notes
+EOF
 
-Welcome.
+# runtime quartz.config.ts
+cat > quartz/quartz.config.ts <<'EOF'
+export default {
+  siteTitle: "aslamnotes",
+}
 EOF
 
 cd quartz
