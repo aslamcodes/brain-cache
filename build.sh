@@ -1,19 +1,16 @@
 #!/usr/bin/env bash
 set -e
 
-ROOT="$(pwd)"
+# clone quartz
+rm -rf quartz
+git clone https://github.com/jackyzha0/quartz.git quartz
 
-rm -rf quartz-build
-git clone https://github.com/jackyzha0/quartz.git quartz-build
+# replace content with your notes (only folders you care about)
+rm -rf quartz/content/*
+cp -R aws computing development devops networking tools whitepapers attachments quartz/content/
 
-rm -rf quartz-build/content/*
-shopt -s extglob
-
-# copy everything EXCEPT quartz-build and build.sh
-cp -R !(quartz-build|build.sh) quartz-build/content/
-
-# runtime index
-cat > quartz-build/content/index.md <<'EOF'
+# create index.md
+cat > quartz/content/index.md <<'EOF'
 ---
 title: Home
 ---
@@ -21,8 +18,8 @@ title: Home
 # Notes
 EOF
 
-# Quartz v4 config
-cat > quartz-build/quartz.config.ts <<'EOF'
+# quartz v4 config
+cat > quartz/quartz.config.ts <<'EOF'
 import { defineConfig } from "./quartz.config.shared"
 
 export default defineConfig({
@@ -32,6 +29,6 @@ export default defineConfig({
 })
 EOF
 
-cd quartz-build
+cd quartz
 npm ci
 npx quartz build
