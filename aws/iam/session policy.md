@@ -5,13 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
----
-dg-publish: true
-tags: 
-type: 
-date: "19th July 2025"
----
 > Pass advanced session policies when you use the AWS CLI or AWS API to assume a role or a federated user.
 
 > Session policies are advanced policies that you pass as a parameter when you programmatically create a temporary session for a role or an AWS STS federated user principal

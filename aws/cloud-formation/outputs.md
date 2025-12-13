@@ -5,8 +5,7 @@ type:
 date: 19th July 2025
 done: false
 ---
-
-Link different stacks via outpus
+Link different stacks via outputs
 
 ```yaml
 Outputs:

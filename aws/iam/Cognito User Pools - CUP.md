@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 Way to create serverless database for web and mobile application users 
 Simple login - username, email, password
 MFA suupport

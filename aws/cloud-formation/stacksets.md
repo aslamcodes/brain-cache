@@ -6,6 +6,7 @@ date: 19th July 2025
 done: false
 ---
 > stacksets are the way to deploy stacks across multiple regions and accounts with single template
+
 - Requires an ADMIN account (AWS organisation)
 - The admin account creates stacksets
 - When updated, all the stacks will gets updated

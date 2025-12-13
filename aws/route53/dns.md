@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # DNS Flow from DNSsimple.com
 - Browser -> Browser cache
 - Browser -> OS
@@ -14,7 +13,7 @@ done: false
 - Resolver -> Root
 - Resolver <- TLD server addr <- Root
 - Resolver -> TLD server
-- Resolver <- Authorative Server addr (nameservers) <-< TLD server
+- Resolver <- Authoritative Server address (nameservers) <-< TLD server
 - Resolver <- IP addr <-< Authorative server addr
 
 The domain registrars reserves the name and communicates with TLD servers

@@ -17,5 +17,6 @@ done: false
 - SQS 
 - Cognito
 
-Thumbnail generation on new object
-Serverless CRON Job (Eventbridge schedule + lambda)
+# Use cases
+- Thumbnail generation on new object
+- Server-less CRON Job (Event Bridge schedule + lambda)

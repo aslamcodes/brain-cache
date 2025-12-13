@@ -5,8 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
-
 EFA - Improved ENA, for linux only. Bypasses the linux OS for low latency. 🤷
 
 > if your CPU is not powerful enough, it can directly limit your network performance

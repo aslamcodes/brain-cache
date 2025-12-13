@@ -1,11 +1,10 @@
 ---
 dg-publish: true
-tags: 
-type: 
+tags:
+type:
 date: 19th July 2025
 done: false
 ---
-
 What does assuming a Role Means? Technically
 - https://www.youtube.com/watch?v=-JAg5A26gF
 

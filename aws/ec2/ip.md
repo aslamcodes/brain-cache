@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # EIP
 Reserved ip and can be attached to one ec2 instance at a time
 By default we'll only have 5 eips

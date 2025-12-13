@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 # Cloudformation helper scripts
 - How do we know if user data script ran successfully?
 - How do we make user data readable

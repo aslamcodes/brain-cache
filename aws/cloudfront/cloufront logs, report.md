@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 ![[Udemy ScreenShot 2025-07-06 13-33-22.jpeg]]
 
 ![[Screenshot 2025-07-06 at 13.34.06.png]]

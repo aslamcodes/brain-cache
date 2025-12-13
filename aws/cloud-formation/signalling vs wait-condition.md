@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 ```
 cfn-signal --success|-s signal.to.send \
         --reason|-r resource.status.reason \

@@ -6,7 +6,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 Basic monitoring - metrics 5 minute interval
 Detailed Monitoring - metrics 1 minute interval
 Metrics - CPU, Network, Disk and Status check metrics

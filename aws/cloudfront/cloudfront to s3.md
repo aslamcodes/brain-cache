@@ -9,7 +9,6 @@ done: false
 - Cached at edge for perfomance
 - UX 
 - 216 edge locations
-
 # Origins
 - s3 bucket
 	- For distributing the files across the edges

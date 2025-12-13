@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 Stack creation fails:
 Two options, can be configures on stack creation (page)
 - Everything Roll back (gets deleted) **or**

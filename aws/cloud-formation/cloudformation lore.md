@@ -5,7 +5,6 @@ type:
 date: 19th July 2025
 done: false
 ---
-
 ### 🔧 Core Functions:
 - `!Ref` → get value of param or resource  
 - `!GetAtt` → get attribute (e.g. `!GetAtt EC2Instance.PublicIp`)  
@@ -33,5 +32,3 @@ done: false
 - `Resources` → actual AWS stuff  
 - `Outputs` → expose values  
 - `Mappings`, `Conditions`, `Metadata`, `Rules`  
-
-Master these, and you're 90% CloudFormation-ready.
