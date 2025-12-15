@@ -4,6 +4,7 @@ type:
 date: 2025-12-14
 done: false
 ---
+> Although AWS appstream is renamed to Workspaces application, I think appstream is a cool name, I kept using it while writing this, I mean i don't care its my note, except you can read this.
 ## Introduction
 
 AppStream images are built from Image Builder instances where administrators manually log in and configure the environment. Once the setup is complete, they use Image Assistant to define the stack, catalog, optimization options, and finally build the image. This manual workflow is fragile; hard to reproduce, error-prone, and unsuitable for predictable outcomes. Automation is necessary.
