@@ -41,23 +41,23 @@ const config: QuartzConfig = {
           lightgray: "#e5e7eb",
           gray: "#9ca3af",
           darkgray: "#374151",
-          dark: "#111827",
-          secondary: "#2563eb",
-          tertiary: "#059669",
-          highlight: "rgba(37, 99, 235, 0.12)",
+          dark: "#000000",
+          secondary: "#000000",
+          tertiary: "#000000",
+          highlight: "rgba(0,0,0,0.05)",
         },
         darkMode: {
-          light: "#0d1117",
-          lightgray: "#161b22",
-          gray: "#8b949e",
-          darkgray: "#c9d1d9",
-          dark: "#f0f6fc",
-          secondary: "#58a6ff",
-          tertiary: "#3fb950",
-          highlight: "rgba(88, 166, 255, 0.15)",
+          light: "#000000",        // background
+          lightgray: "#0a0a0a",    // panels
+          gray: "#b3b3b3",         // muted text
+          darkgray: "#d1d5db",     // normal text
+          dark: "#ffffff",        // headings
+          secondary: "#ffffff",
+          tertiary: "#e5e7eb",
+          highlight: "rgba(255,255,255,0.08)",
         },
       },
-    },
+    }
   },
   plugins: {
     transformers: [
