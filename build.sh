@@ -101,7 +101,7 @@ mkdir -p .quartz/content
 # Copy files and directories, excluding what we don't want
 for item in *; do
   case "$item" in
-    .quartz|.git|.obsidian|public|node_modules|build.sh|vercel.json|.gitignore)
+    .quartz|.git|.obsidian|public|templates|node_modules|build.sh|vercel.json|.gitignore)
       echo "Skipping $item"
       ;;
     *)
@@ -128,11 +128,15 @@ Browse my notes using the explorer on the left or search above.
 ## Topics
 
 - [AWS](aws/)
+- [Cloud Security](cloud-security/)
 - [Computing](computing/)
 - [Development](development/)
-- [Networking](networking/)
 - [DevOps](devops/)
+- [Networking](networking/)
+- [Projects](projects/)
 - [Tools](tools/)
+- [Whitepapers](whitepapers/)
+- [Attachments](attachments/)
 
 INDEXEOF
 fi
