@@ -27,8 +27,8 @@ type Context interface {
 }
 ```
 
-- The `Done` is receive only for the same reason that  there is not cancel function, a context should only be cancelled by the parent
+- The `Done` is receive only for the same reason that there is not cancel function, a context should only be cancelled by the parent
 - `Deadline()` method determines that a function should start work at all? More on this later
 - `Value` is for use by multiple goroutines. But are they secured by locks?
-- Deriving a context from another context forms a tree, cancelling one context cancels it leafs, and every context has **background context** which would never be cancelled
-	- WithCancel(parent_ctx, cancel_func) (ctx, cancelfunc) or withTimeout(parent_ctx, timeout) (ctx, cancelfunc)
+- Deriving a context from another context forms a tree, cancelling one context cancels till leafs, and every context has **background context** which would never be cancelled
+		- WithCancel(parent_ctx, cancel_func) (ctx, cancelfunc) or withTimeout(parent_ctx, timeout) (ctx, cancelfunc)
