@@ -7,32 +7,16 @@ done: false
 # The problem
 
 # Background knowledge
-The context object can be created with three ways
-1. basic
-2. preemptive cancellation
-3. deadline cancellation (timeout, deadline)
-
-**Basic**
-
-```go
-ctx := context.Context(context.Background())
-```
-
-**Preemptive**
-```go
-ctx, cancel := context.WithCancel(context.Backgroun()) 
-defer cancel()
-```
-**deadline cancellation**
-```go
-ctx, cancel := context.WithTimeout(context.Background(), 5 * time.Second)
-defer cancel()
-// or
-ctx, cancel := context.WithDeadline(context.Background(), time.Now())
-defer cancel()
-```
-
 # Integration Planning
 - The base context is going to be non cancellable, and other time bound and cancellable contexts will be derived from it and passed downwards
-- For appstreamfile, which is based on variety of IO calls (network, disks, other executables), should the component that performing the operation may have timeouts, ie components interactive with IO boundary or the root context is to have a universal timeout and configurable by the user 
+- For appstreamfile, which is based on variety of IO calls (network, disks, other executables), should the component that performing the operation may have timeouts, ie components interactive with IO boundary or the root context is to have a universal timeout and configurable by the user?
+	- The former is better. Your parent context remain as the root, while your child operations doing the IO operations should embrace the deadlines, cancellation. 
+	- This is similar to server components from React. You'd try to keep the reactivity until the last component. Here, you would keep the timeouts, cancellation upto the last IO boundary.
 
+ChatGPT
+- For **appstreamfile**, which spans multiple IO boundaries (network, disk, external processes), timeouts should live **at the IO-performing components**, not only at the root context.
+- Keep the **parent context as the root** (for overall cancellation).
+- Each **child operation** that crosses an IO boundary should set its **own deadline/timeout** and respect cancellation.
+- This keeps control close to where latency and failure actually happen.
+- Analogy: like **React server components**—you defer side effects and constraints until the last possible boundary.
+- Result: better granularity, safer defaults, and user-configurable behavior without over-constraining the whole execution.
