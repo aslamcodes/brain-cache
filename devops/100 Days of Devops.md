@@ -31,14 +31,37 @@ The task simply required to update the permissions of a given file.
 However the `chmod +x`, which is meant to make the file executable didn't work. However `chmod 755` worked. This is possible a misleading task description
 [[Permissions]]
 # Day 5: Installing SE Linux
+## Understanding SELinux
 See kernel modules at [[Linux Kernel]]
-
+### DAC vs MAC
 Linux uses DAC ([Discretionary](https://www.merriam-webster.com/dictionary/discretion) Access control) by default, that is the file owner is being discretionary upon providing access. SELinux however, provides MAC (Mandatory Access Control) where the access is controlled centrally, users and owners is not permitted to change those since the decisions are enforced with Linux kernel.
 
 The weakness of DAC is being, that the owner is given the control, and the big assumption that the user regulates the access securely. The access to files are governed by a central policy (more like [[SCP|AWS's SCP]]), so that any compromised process is not going to get most out of the affected system.  MAC is for government systems, containers where the blast radius have to be reduced and governance should be strict.
 
-**What's SELinux**
-- SELinux (Security Enhanced Linux) is a linux kernel module, that enforces strict policies on Access Control
-- SELinux provides (Mandatory Access Control), that is 
+DAC and MAC works together, SELinux just adds to the access verification.
+### Enabling SELinux
+installing policycoreutils provides `setenforce` and `getenforce` commands. SELinux can be enabled by modifying `~/etc/selinux/config`. Heres a sample config file. 
+
+```sh
+sudo yum install policycoreutils selinux-policy selinux-policy-targeted policycoreutils-python-utils
+```
+
+```ini
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+# enforcing - SELinux security policy is enforced.
+# permissive - SELinux prints warnings instead of enforcing.
+# disabled - No SELinux policy is loaded.
+SELINUX=enforcing
+# SELINUXTYPE= can take one of these two values:
+# default - equivalent to the old strict and targeted policies
+# mls     - Multi-Level Security (for military and educational use)
+# src     - Custom policy built from source
+SELINUXTYPE=default
+
+# SETLOCALDEFS= Check local definition changes
+SETLOCALDEFS=0
+```
+> Once the SELINUX variable set to `enforcing`, we would need to reboot the system, as this is a kernel module, that needs to loaded
 
 https://www.geeksforgeeks.org/linux-unix/what-is-selinux/S3 

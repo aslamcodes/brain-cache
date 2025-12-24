@@ -22,3 +22,9 @@ Package managers like `apt` read your manifest, look up each dependency name in 
 This whole flow works because your manifest lists “what you need,” and the repository provides “where to get it.”
 
 The package formats .deb, .rpm - even the underlying software behavior and implementation stays the same - expects a different packaging layers and package handling methods. Example such as the metadata format, the dependency names and repo metadata
+
+**Identifying userland package management**
+
+```sh
+echo "RPM check:"; rpm -q kernel || echo "no rpm"; echo "DPKG check:"; dpkg -l kernel 2>/dev/null || echo "no dpkg"
+```
