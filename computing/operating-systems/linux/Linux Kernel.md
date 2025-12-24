@@ -7,7 +7,6 @@ I always think kernel as the *orchestrator* of computer resources. It will manag
 2. Process Management
 3. Device Drivers
 4. System calls
-
 # Memory Management
 1. Kernel Space 
 	- A process running in the kernel space has unrestricted access to the hardware
