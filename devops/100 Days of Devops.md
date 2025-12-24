@@ -33,7 +33,12 @@ However the `chmod +x`, which is meant to make the file executable didn't work. 
 # Day 5: Installing SE Linux
 See kernel modules at [[Linux Kernel]]
 
+Linux uses DAC ([Discretionary](https://www.merriam-webster.com/dictionary/discretion) Access control) by default, that is the file owner is being discretionary upon providing access. SELinux however, provides MAC (Mandatory Access Control) where the access is controlled centrally, users and owners is not permitted to change those since the decisions are enforced with Linux kernel.
+
+The weakness of DAC is being, that the owner is given the control, and the big assumption that the user regulates the access securely. The access to files are governed by a central policy (more like [[SCP|AWS's SCP]]), so that any compromised process is not going to get most out of the affected system.  MAC is for government systems, containers where the blast radius have to be reduced and governance should be strict.
+
 **What's SELinux**
-SELinux (Security Enhanced Linux) is a linux kernel module, that enforces strict policies on Access Control
+- SELinux (Security Enhanced Linux) is a linux kernel module, that enforces strict policies on Access Control
+- SELinux provides (Mandatory Access Control), that is 
 
 https://www.geeksforgeeks.org/linux-unix/what-is-selinux/S3 
