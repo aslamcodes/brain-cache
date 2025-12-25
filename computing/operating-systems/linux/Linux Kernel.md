@@ -1,4 +1,4 @@
-# Intuition
+	# Intuition
 > An interface between Computer Hardware and The processes
 
 I always think kernel as the *orchestrator* of computer resources. It will manage the resources and provide an interface to the processes that are running. 
