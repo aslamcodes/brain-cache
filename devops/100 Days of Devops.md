@@ -60,3 +60,18 @@ SETLOCALDEFS=0
 
 https://www.geeksforgeeks.org/linux-unix/what-is-selinux/S3 
 
+# Day 6:
+[[CRON]]
+
+
+# Day 7: Password less - jump host
+xFusion wants to automate some script execution from the jump host itself, for this, its required to setup a password-less ssh access to the appservers from the jumphosts to the respecitive sudo users (ie Tony)
+
+[[ssh]]
+
+This can be achieved via public key cryptography. The keys can be created with ssh-keygen and copied over with ssh-copy-id
+```sh
+ssh-keygen
+ssh-copy-id -i ~/.ssh/id_ed25519.pub user@host
+```
+ 
