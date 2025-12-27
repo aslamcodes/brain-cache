@@ -61,7 +61,7 @@ SETLOCALDEFS=0
 https://www.geeksforgeeks.org/linux-unix/what-is-selinux/S3 
 
 # Day 6:
-[[CRON]]
+	[[CRON]]
 
 
 # Day 7: Password less - jump host
