@@ -60,10 +60,9 @@ SETLOCALDEFS=0
 
 https://www.geeksforgeeks.org/linux-unix/what-is-selinux/S3 
 
-# Day 6:
-	[[CRON]]
-
-
+# Day 6: CRON
+[[CRON]]
+The task is about setting up crontab, that automates a particular task by executing scripts
 # Day 7: Password less - jump host
 xFusion wants to automate some script execution from the jump host itself, for this, its required to setup a password-less ssh access to the appservers from the jumphosts to the respecitive sudo users (ie Tony)
 
@@ -74,4 +73,39 @@ This can be achieved via public key cryptography. The keys can be created with s
 ssh-keygen
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@host
 ```
- 
+
+# Day 8 : Setting Up Ansible controller
+The task is to install ansible on the jump host, which is going to serve as a temporary ansible controller. Wherever you install ansible binary, it technically can be a ansible controller. almost everything lives on the control node. Targets are mostly passive, accessed via ssh.
+
+**Key components in a ansible setup**
+- **Control node** – machine where Ansible runs
+- **Managed nodes** – target hosts
+- **Inventory** – list of hosts/groups
+- **Modules** – units of work (copy, yum, service, etc.)
+- **Playbooks** – YAML automation definitions
+- **Plays** – map tasks to hosts
+- **Tasks** – single actions
+- **Roles** – reusable playbook structure
+- **Facts** – system info from nodes
+- **Variables** – dynamic values
+- **Plugins** – extend behavior (connection, lookup, callback)
+- **Collections** – packaged roles, modules, plugins
+
+Ansible knows its target via its inventory configuration; that can be static (ie from static files) and can be dynamic, such as from an API.
+```ini
+[web]
+10.0.0.12
+```
+
+# Day 9: Troubleshooting MariaDb
+- MariaDB was **inactive** because it failed to start.
+- systemd logs were generic; real error was in MariaDB output.
+- Root cause:
+    `Permission denied: /run/mariadb/mariadb.pid`
+- `/run/mariadb` existed but was owned by `root:mysql`.
+- MariaDB runs as `mysql`, so it couldn’t write the PID file.
+- Fix:
+    `chown mysql:mysql /run/mariadb systemctl restart mariadb`
+- After this, MariaDB should run normally.
+
+[[ownership in linux]]
