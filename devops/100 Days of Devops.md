@@ -109,3 +109,25 @@ Ansible knows its target via its inventory configuration; that can be static (ie
 - After this, MariaDB should run normally.
 
 [[ownership in linux]]
+
+# Day 10: Automation Scripts
+The task is to setup a backup scripts on the tony's appserver, which is meant to create the backup of contents at `/var/www/html/beta` into the `/backup` directory. And the script is also meant to copy the backup contents over the backup server without any password prompts, which can be achieved via [[100 Days of Devops#Day 7 Password less - jump host|Day 7's Password Less authentication challenge]] 
+```sh
+#!/usr/bin/env bash
+set -euo pipefail
+
+SRC_DIR="/var/www/html/beta"
+BACKUP_DIR="/backup"
+ARCHIVE="xfusioncorp_beta_$(date +%F_%H%M%S).zip"
+REMOTE="clint@stbkp01.stratos.xfusioncorp.com:/backup"
+
+# create archive
+zip -r "${BACKUP_DIR}/${ARCHIVE}" "${SRC_DIR}"
+
+# verify archive
+test -s "${BACKUP_DIR}/${ARCHIVE}"
+
+# transfer
+scp "${BACKUP_DIR}/${ARCHIVE}" "${REMOTE}"
+
+```
