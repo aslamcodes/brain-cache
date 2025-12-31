@@ -131,3 +131,43 @@ test -s "${BACKUP_DIR}/${ARCHIVE}"
 scp "${BACKUP_DIR}/${ARCHIVE}" "${REMOTE}"
 
 ```
+# Day 11: Tomcat setup
+ 
+> **Apache HTTPD** → for static sites; **Tomcat** → for Java web apps
+
+The task is to create a tomcat server in one of the appserver, that will serve a ROOT.war file provided to us. 
+
+Here's a brute-force approach, but there is better ways to do this leveraging systemd service, and proper linux user management. 
+
+```
+sudo yum install -y java-17-openjdk unzip wget
+
+cd /opt
+
+// Install the latest tomcat server
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.15/bin/apache-tomcat-11.0.15.zip
+
+sudo unzip apache-tomcat-11.0.15.zip
+
+sudo mv apache-tomcat-11.0.15 tomcat
+
+sudo rm -f apache-tomcat-11.0.15.zip
+
+sudo chmod +x /opt/tomcat/bin/*.sh
+
+// edit the connector port to 5003
+vi /opt/tomcat/conf/server.xml
+
+// create a tomcat user that's responisble for running the tomcat server
+sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
+
+sudo chown -R tomcat:tomcat /opt/tomcat
+
+// remove existing /opt/tomcat/webpages/ROOT and place the ROOT.war, with appropriate permssion
+
+rm /opt/tomcat/webpages/ROOT
+cp /tmp/ROOT.war /opt/tomcat/webpages
+
+sudo -u tomcat /opt/tomcat/bin/startup.sh
+```
+**Optimised Approach**
