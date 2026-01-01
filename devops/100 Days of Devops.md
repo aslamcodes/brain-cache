@@ -171,3 +171,11 @@ cp /tmp/ROOT.war /opt/tomcat/webpages
 sudo -u tomcat /opt/tomcat/bin/startup.sh
 ```
 **Optimised Approach**
+- The tomcat server should be better ran as a systemd service improving overall stability of the service and maintainability
+- the tomcat user can be managed under a group for better management
+
+# Day 12
+An Apache service has not been reachable; diagnose and fix the issue and make the service reachable again
+
+use tools like telnet, netstat for diagnosis 
+
