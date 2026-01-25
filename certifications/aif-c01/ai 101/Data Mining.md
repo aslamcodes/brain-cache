@@ -19,7 +19,7 @@ CRISP-DM ![[Data Mining-1766991661449.png|494x500]]
 [[Regression]]
 [[Clustering-1766749057928.png]]
 [[Unsuperviced Learning Models#Association]]
-[[Feature Engineering]]
+[[certifications/aif-c01/ai 101/Feature Engineering]]
 
 
 
